@@ -27,7 +27,7 @@ a {
    all: unset;
 }
 
-a:hover {
+.button-setting a:hover {
       border: 0px solid #ADC0CE;
   border-radius: 15px;
   background-color: black;

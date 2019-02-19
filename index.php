@@ -18,5 +18,6 @@ echo'<style>#index
 }
 </style>';
 banner();
+menu_right();
 ?>
 </body>

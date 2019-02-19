@@ -96,7 +96,7 @@ margin: 0 auto;
 }
 .banner-img
 {
-   position: fixed; 
+   position: absolute; 
    padding: 9 0; 
 }
 .banner-img img

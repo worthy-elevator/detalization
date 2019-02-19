@@ -19,5 +19,6 @@ echo'<style>#services
 </style>';
 
 banner();
+menu_right();
 ?>
 </body>
