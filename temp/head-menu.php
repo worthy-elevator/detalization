@@ -10,33 +10,26 @@ function menu(){
 </head>
 <body>
 	<div class="header">
-	
-
 		<div class="top-menu">
 			<div class ="buttons" >
 				<div class= "menu-button">
-        <div class="logo" style="float:left;" id="none-copy ">
-      <img src="img/menu-pic.png" width="70px"> 
-      
-    </div>
-    <div class="company-name" id="none-copy">
-    <p>
-    Компас-Деталь
-    </p>
-    </div>
-					<div class="button-setting" id="menu" >
-
-
-  						 <ul type="none" id="none-copy">
-   						 <li ><a href="index.php" id="index">Главная</a></li>
-   						 <li><a href="services.php" id="services">Услуги</a></li>
-   						 <li><a href="1.html">Наши заказчики</a></li>
-   						 <li><a href="1.html">Контакты</a></li>
-  						</ul>
-					</div>
+          <div class="logo" style="float:left;" id="none-copy ">
+            <img src="img/menu-pic.png" width="70px"> 
+          </div>
+          <div class="company-name" id="none-copy">
+            <p>Компас-Деталь</p>
+          </div>
+				  <div class="button-setting" id="menu" >
+				    <ul type="none" id="none-copy">
+   				    <li><a href="index.php" id="index">Главная</a></li>
+   				    <li><a href="services.php" id="services">Услуги</a></li>
+   				    <li><a href="1.html">Наши заказчики</a></li>
+   				    <li><a href="1.html">Контакты</a></li>
+  				  </ul>
+				  </div>
           <div class="contacts">
-          <a href="tel:+7(978)1111111">тел. +7(978)1111111</a><br>
-          <a href="mailto:vashapochta@gmail.com">email: vashapochta@gmai.com</a>
+            <a href="tel:+7(978)1111111">тел. +7(978)1111111</a><br>
+            <a href="mailto:vashapochta@gmail.com">email: vashapochta@gmai.com</a>
           </div>			
 		    </div>
       </div>
@@ -56,16 +49,12 @@ function menu2(){
 </head>
 <body>
 	<div class="header">
-	
-		<div class="logo">
-			<img src="1.jpg" width="100%"> 
-			
-		</div>
+
 		<div class="top-menu">
 			<div class ="buttons" >
 				<div class= "menu-button">
 					<div class="menu-icon" style="" onclick="showMenu()">
-	<div class="container">
+	          <div class="container">
 
 
         <input type="checkbox" id="checkbox4" class="checkbox4 visuallyHidden">
@@ -81,6 +70,7 @@ function menu2(){
 
     </div>
 					</div>
+
 					<div class="button-setting" id="menu">
 
   						 <ul type="none" class="none-copy">
