@@ -18,5 +18,6 @@ echo'<style>#services
 }
 </style>';
 
+banner();
 ?>
 </body>

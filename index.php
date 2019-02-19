@@ -17,6 +17,6 @@ echo'<style>#index
   background-image: url(/img/button-back.jpg);
 }
 </style>';
-
+banner();
 ?>
 </body>

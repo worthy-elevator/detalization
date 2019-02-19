@@ -83,6 +83,46 @@ margin: 0 auto;
   -webkit-touch-callout: none;
   cursor:pointer;
 }
+.banner
+{
+  background-image: url(/img/info-back.jpg); 
+  background-size: cover; 
+  height: 265px
+}
+.banner-items
+{
+  width: 930px ; 
+  margin: 0 auto;
+}
+.banner-img
+{
+   position: fixed; 
+   padding: 9 0; 
+}
+.banner-img img
+{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  width: 100%;
+}
+.banner-words
+{
+   float: right; 
+   padding: 5.5em 10; 
+   width: 270px; 
+   overflow: hidden;
+}
+.banner-words-1
+{
+  font-size: 37px;
+  color: white; 
+}
+
+.banner-words-2
+{
+  font-size: 20px; 
+  color: white ; 
+  text-align: center;
+}
 
 @media (max-width: 940px)
 {
@@ -93,5 +133,18 @@ margin: 0 auto;
   .menu-button
   {
     width: 719px;
+  }
+  .banner-items
+  {
+    width: 640px;
+  }
+  .banner-img
+  {
+    padding: 9 9;
+  }
+  .banner-words
+  {
+    position: absolute;
+    padding: 9em 0 0 30px;
   }
 }
