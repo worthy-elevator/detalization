@@ -11,7 +11,7 @@ function menu(){
 	<div class="header">
 	
 		<div class="logo">
-			<img src="1.jpg" width="100%"> 
+			<img src="img/head-pic.png" width="100%"> 
 			
 		</div>
 		<div class="top-menu">
