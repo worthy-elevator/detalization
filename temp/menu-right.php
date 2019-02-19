@@ -23,9 +23,9 @@ function menu_right()
 		</div>
 		<div class="menu-right" style="float: right; width:290px">
 			<ul style="margin-left:30px; margin-top:20px;">
-				<li style="padding-bottom:5px"><a href="#">ковка через жопу</a></li>
-				<li style="padding-bottom:5px"><a href="#">сварка расскаленными хуями</a></li>
-				<li style="padding-bottom:5px"><a href="#">фрезеровка без рук</a></li>
+				<li style="padding-bottom:5px"><a href="#">художественная ковка</a></li>
+				<li style="padding-bottom:5px"><a href="#">контурная сварка любой сложности</a></li>
+				<li style="padding-bottom:5px"><a href="#">высокоточная фрезеровка</a></li>
 			</ul>
 		</div>
 	</div>';
