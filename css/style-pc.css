@@ -1,24 +1,26 @@
 .button-setting{
-	margin: 0 auto 0 auto ;
-	width: 525px; ;
+	margin: auto 0 ;
+  height: 46px;
 	
 }
 .button-setting li{
   float: left;
-  
+
+  margin: auto 0;
 }
 .button-setting ul {
-
   overflow: hidden;
   padding: 0;
+padding: 30 0 30 10
 }
 
 .button-setting a {
   display: block;
   padding: 0.5em;
-  border-left: 1px solid #ADC0CE;
+  border: 1px solid #ADC0CE;
+  border-radius: 15px;
   color: #29838C;
-  font-size: 29px
+  font-size: 17px;
 }
 .button-setting a:hover {background: #ADC0CE}
 

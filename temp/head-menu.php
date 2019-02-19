@@ -10,23 +10,27 @@ function menu(){
 <body>
 	<div class="header">
 	
-		<div class="logo">
-			<img src="img/head-pic.png" width="100%"> 
-			
-		</div>
+
 		<div class="top-menu">
 			<div class ="buttons" >
-				<div class= "menu-button">
-					<div class="button-setting" id="menu">
+				<div class= "menu-button" style="width:706px; margin: 0 auto">
+        <div class="logo" style="float:left;">
+      <img src="img/head-pic.png" width="110px"> 
+      
+    </div>
+    <div class="company-name">
+    <p>
+    Компас-Деталь
+    </p>
+    </div>
+					<div class="button-setting" id="menu" >
+
 
   						 <ul type="none" id="none-copy">
-   						 <li ><a href="1.html"> <div class="home-img" style="display: inline;">
-        						<img class="home-pic" src="1.jpg"  >
-  							  </div>Главная</a>
-   						 </li>
+   						 <li ><a href="1.html">Главная</a></li>
    						 <li><a href="1.html">Услуги</a></li>
    						 <li><a href="1.html">Наши заказчики</a></li>
-   						 <li style="border-right: 1px solid #ADC0CE"><a href="1.html">Контакты</a></li>
+   						 <li><a href="1.html">Контакты</a></li>
   						</ul>
 					</div>			
 		    </div>
