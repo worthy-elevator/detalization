@@ -14,7 +14,7 @@ function menu(){
 
 		<div class="top-menu">
 			<div class ="buttons" >
-				<div class= "menu-button" style="width:719px; margin: 0 auto">
+				<div class= "menu-button">
         <div class="logo" style="float:left;" id="none-copy ">
       <img src="img/menu-pic.png" width="70px"> 
       
@@ -33,7 +33,11 @@ function menu(){
    						 <li><a href="1.html">Наши заказчики</a></li>
    						 <li><a href="1.html">Контакты</a></li>
   						</ul>
-					</div>			
+					</div>
+          <div class="contacts">
+          <a href="tel:+7(978)1111111">тел. +7(978)1111111</a><br>
+          <a href="mailto:vashapochta@gmail.com">email: vashapochta@gmai.com</a>
+          </div>			
 		    </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ echo'<style>#index
 {
   border: 0px solid #ADC0CE;
   border-radius: 15px;
-  background-color: red;
+  background-image: url(/img/button-back.jpg);
 }
 </style>';
 
