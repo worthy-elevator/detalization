@@ -41,8 +41,17 @@ border-spacing: 0;
 	margin: 0 auto 0 auto ; 
 }
 .menu-button {
-margin: 0 auto 0 auto ; 
+
 height: 110px;
+width:940px; 
+margin: 0 auto;
+}
+.contacts
+{
+  float:right; 
+  color:white; 
+  margin: 33 0;
+  cursor:pointer;
 }
 .home-pic  {
 	width:10px;
@@ -73,4 +82,16 @@ height: 110px;
   -webkit-user-select: none; /* Chrome, Safari, and Opera */
   -webkit-touch-callout: none;
   cursor:pointer;
+}
+
+@media (max-width: 940px)
+{
+  .contacts
+  {
+    display: none;
+  }
+  .menu-button
+  {
+    width: 719px;
+  }
 }
