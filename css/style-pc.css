@@ -1,0 +1,32 @@
+.button-setting{
+	margin: 0 auto 0 auto ;
+	width: 525px; ;
+	
+}
+.button-setting li{
+  float: left;
+  
+}
+.button-setting ul {
+
+  overflow: hidden;
+  padding: 0;
+}
+
+.button-setting a {
+  display: block;
+  padding: 0.5em;
+  border-left: 1px solid #ADC0CE;
+  color: #29838C;
+  font-size: 29px
+}
+.button-setting a:hover {background: #ADC0CE}
+
+a {
+   all: unset;
+}
+
+a:hover {
+    color: #800000; 
+}
+
