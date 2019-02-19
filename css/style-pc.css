@@ -11,24 +11,25 @@
 .button-setting ul {
   overflow: hidden;
   padding: 0;
-padding: 30 0 30 10
+padding: 35 0 35 10;
 }
 
 .button-setting a {
   display: block;
   padding: 0.5em;
-  border: 1px solid #ADC0CE;
-  border-radius: 15px;
-  color: #29838C;
+
+  color: white;
   font-size: 17px;
 }
-.button-setting a:hover {background: #ADC0CE}
+.button-setting a:hover {background: black}
 
 a {
    all: unset;
 }
 
 a:hover {
-    color: #800000; 
+      border: 0px solid #ADC0CE;
+  border-radius: 15px;
+  background-color: black;
 }
 

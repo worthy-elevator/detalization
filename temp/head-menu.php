@@ -6,6 +6,7 @@ function menu(){
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <link href="css/style.css" type="text/css" rel="stylesheet">
   <link href="css/style-pc.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Marmelad" rel="stylesheet"> 
 </head>
 <body>
 	<div class="header">
@@ -13,12 +14,12 @@ function menu(){
 
 		<div class="top-menu">
 			<div class ="buttons" >
-				<div class= "menu-button" style="width:706px; margin: 0 auto">
-        <div class="logo" style="float:left;">
-      <img src="img/head-pic.png" width="110px"> 
+				<div class= "menu-button" style="width:719px; margin: 0 auto">
+        <div class="logo" style="float:left;" id="none-copy ">
+      <img src="img/menu-pic.png" width="70px"> 
       
     </div>
-    <div class="company-name">
+    <div class="company-name" id="none-copy">
     <p>
     Компас-Деталь
     </p>
@@ -27,8 +28,8 @@ function menu(){
 
 
   						 <ul type="none" id="none-copy">
-   						 <li ><a href="1.html">Главная</a></li>
-   						 <li><a href="1.html">Услуги</a></li>
+   						 <li ><a href="index.php" id="index">Главная</a></li>
+   						 <li><a href="services.php" id="services">Услуги</a></li>
    						 <li><a href="1.html">Наши заказчики</a></li>
    						 <li><a href="1.html">Контакты</a></li>
   						</ul>
@@ -47,6 +48,7 @@ function menu2(){
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <link href="css/style.css" type="text/css" rel="stylesheet">
   <link href="css/style-mobile.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Marmelad" rel="stylesheet"> 
 </head>
 <body>
 	<div class="header">

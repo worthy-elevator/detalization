@@ -32,8 +32,12 @@ border-spacing: 0;
 }
 .header{
 }
+.top-menu
+{
+  background-image: url(/img/menu-back.jpg);
+}
 .logo{
-
+  padding: 20px;
 	margin: 0 auto 0 auto ; 
 }
 .menu-button {
@@ -48,9 +52,17 @@ height: 110px;
 {
   float: left;
   height: 40px;
-  padding: 35 10;
-    color: #29838C;
+  padding: 35 10 35 0;
+  color: white;
   font-size: 30px;
+  font-family: 'Marmelad', sans-serif;
+}
+
+#selected
+{
+  border: 0px solid #ADC0CE;
+  border-radius: 15px;
+  background-color: white;
 }
 
 #none-copy
