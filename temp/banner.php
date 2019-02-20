@@ -8,7 +8,7 @@ function banner(){
 			
 			</div>
 			<div class="banner-words">
-				<p class="banner-words-1">Деталь - Компас </p>
+				<p class="banner-words-1">Компас - Деталь </p>
 				<p class="banner-words-2">Качественная деталировка! </p>
 			</div>
 		</div>
