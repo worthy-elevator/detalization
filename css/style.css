@@ -40,12 +40,7 @@ border-spacing: 0;
   padding: 20px;
 	margin: 0 auto 0 auto ; 
 }
-.menu-button {
 
-height: 110px;
-width:940px; 
-margin: 0 auto;
-}
 .contacts
 {
   float:right; 
@@ -107,7 +102,7 @@ margin: 0 auto;
 .banner-words
 {
    float: right; 
-   padding: 5.5em 10; 
+   padding: 5em 0 0 15; 
    width: 270px; 
    overflow: hidden;
 }
@@ -147,4 +142,5 @@ margin: 0 auto;
     position: absolute;
     padding: 9em 0 0 30px;
   }
+  
 }

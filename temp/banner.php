@@ -9,7 +9,7 @@ function banner(){
 			</div>
 			<div class="banner-words">
 				<p class="banner-words-1">Компас - Деталь </p>
-				<p class="banner-words-2">Качественная деталировка! </p>
+				<p class="banner-words-2"><br>Все Вопросы решаются!</p>
 			</div>
 		</div>
 	</div>';}

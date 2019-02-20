@@ -1,3 +1,10 @@
+.menu-button 
+{
+width:940px; 
+margin: 0 auto;
+height: 110px;
+}
+
 .button-setting{
 	margin: 0 auto 0 auto ;
 	width: 100%; ;
@@ -16,17 +23,18 @@
 
 .button-setting a 
 {
+  text-align: center; 
   display: block;
   padding: 0.5em;
   border: 1px solid #ADC0CE;
-  color: #29838C;
+  color: white;
   font-size: 29px
 }
-.button-setting a:hover {background: #ADC0CE}
+.button-setting a:hover {background: black}
 
 a {all: unset;}
 
-a:hover {color: #800000;}
+a:hover {color: white;}
 
 .home-img
 {
@@ -35,8 +43,10 @@ a:hover {color: #800000;}
 
 .menu-icon
 {
+  float: right;
+  margin-top: 30px;
   width: 43px; 
-  margin: 0 auto;
+  margin: 30 20;
 }
 
 /* burger */
@@ -71,7 +81,7 @@ h1 {
     padding: 0;
     width: 30px;
     height: 4px;
-    background-color: maroon;
+    background-color: cadetblue;
     display: block;
     border-radius: 4px;
     transition: all 0.4s ease-in-out;
@@ -150,3 +160,22 @@ h1 {
     background-color: transparent; 
 }
 
+@media(max-width: 940px)
+{
+    .menu-button
+  {
+    width: 100%;
+  }
+}
+
+@media(max-width: 420px)
+{
+  .logo
+  {
+    display: none;
+  }
+  .company-name
+  {
+    margin-left: 9px;
+  }
+}

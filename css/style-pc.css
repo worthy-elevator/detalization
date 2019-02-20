@@ -33,3 +33,17 @@ a {
   background-color: black;
 }
 
+.menu-button 
+{
+height: 110px;
+width:940px; 
+margin: 0 auto;
+}
+
+@media(max-width: 940px)
+{
+    .menu-button
+  {
+    width: 719px;
+  }
+}

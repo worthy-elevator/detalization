@@ -53,6 +53,13 @@ function menu2(){
 		<div class="top-menu">
 			<div class ="buttons" >
 				<div class= "menu-button">
+
+        <div class="logo" style="float:left;" id="none-copy ">
+            <img src="img/menu-pic.png" height="70px"> 
+          </div>
+          <div class="company-name" id="none-copy">
+            <p>Компас-Деталь</p>
+          </div>
 					<div class="menu-icon" style="" onclick="showMenu()">
 	          <div class="container">
 
@@ -71,21 +78,17 @@ function menu2(){
     </div>
 					</div>
 
-					<div class="button-setting" id="menu">
-
-  						 <ul type="none" class="none-copy">
-   						 <li ><a href="1.html"> <div class="home-img">
-        						<img class="home-pic" src="1.jpg"  >
-  							  </div>Home</a>
-   						 </li>
-   						 <li><a href="1.html">Work</a></li>
-   						 <li><a href="1.html">About</a></li>
-   						 <li><a href="1.html">Blog</a></li>
-   						 <li style="border-right: 1px solid #ADC0CE"><a href="1.html">Contact</a></li>
-  						</ul>
-					</div>				
+									
 			</div>
+<div class="button-setting" id="menu">
 
+               <ul type="none" class="none-copy">
+               <li ><a href="index.php">Главная</a></li>
+               <li><a href="services.php">Услуги</a></li>
+               <li><a href="customers.php">Наши заказчики</a></li>
+               <li><a href="contacts.php">Контакты</a></li>
+              </ul>
+          </div>
 			
 		</div>
 	</div>
