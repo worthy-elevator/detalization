@@ -15,12 +15,15 @@ if($_POST['submit']){
  }else echo '<p>Логин или пароль неверны!</p>';
 }
 ?>
-<p><a href="index.php">index</a> | <a href="contact.php">contact</a> | <a href="admin.php">admin</a></p>
-<hr />
-this logIn
-<br />
-<form method="post">
- Username: <input type="text" name="user" /><br />
- Password: <input type="password" name="pass" /><br />
- <input type="submit" name="submit" value="Войти" />
-</form>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+</head>
+<body>
+	Авторизация
+	<br>
+	<form method="post">
+		Username: <input type="text" name="user" /><br />
+		Password: <input type="password" name="pass" /><br />
+		<input type="submit" name="submit" value=" " />
+	</form>
+</body>

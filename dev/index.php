@@ -1,3 +1,9 @@
-<p><a href="index.php">index</a> | <a href="contact.php">contact</a> | <a href="admin.php">admin</a></p>
-<hr />
-this index
+<?php
+if($_SESSION['admin']){
+ header("Location: admin.php");
+ exit;
+}else
+{
+	header("Location: log.php");
+}
+?>

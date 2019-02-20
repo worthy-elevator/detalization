@@ -23,7 +23,9 @@ function menu(){
 				    <ul type="none" id="none-copy">
    				    <li><a href="index.php" id="index">Главная</a></li>
    				    <li><a href="services.php" id="services">Услуги</a></li>
-   				    <li><a href="1.html">Наши заказчики</a></li>
+   				    <li style="';
+              include ('./dev/fuckinoff.php');
+              echo'"><a href="1.html">Наши заказчики</a></li>
    				    <li><a href="1.html">Контакты</a></li>
   				  </ul>
 				  </div>
@@ -85,7 +87,9 @@ function menu2(){
                <ul type="none" class="none-copy">
                <li ><a href="index.php">Главная</a></li>
                <li><a href="services.php">Услуги</a></li>
-               <li><a href="customers.php">Наши заказчики</a></li>
+                <li style="';
+              include ('./dev/fuckinoff.php');
+              echo'"><a href="customers.php">Наши заказчики</a></li>
                <li><a href="contacts.php">Контакты</a></li>
               </ul>
           </div>
