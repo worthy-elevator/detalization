@@ -39,7 +39,7 @@ $folder = "customers/";
   ksort($customers);
 foreach($customers as $key=>$name)
 {
-	$alt= str_replace(" ","~",$name);
+	$alt= str_replace("~"," ",$name);
 	//$alt=iconv('UTF-8','Windows-1251', $alt);
 
   				echo '
@@ -50,11 +50,8 @@ foreach($customers as $key=>$name)
   				}
   				</style>
   				<div>
-  					<img src="customers/'.$name.'" id="'.$key.'" style="height:100px; float:left; margin: 20 ">
+  					<img src="customers/'.$name.'" id="'.$key.'"  alt="'.$alt.'" style="height:100px; float:left; margin: 20 " onclick="showMenu('.$key.')">
   				</div>
-<div class="pics">
-      <!--<div class="image"><input id="'.$key.'" type="checkbox"><label for="'.$key.'" style="background-image: url(/customers/'.$name.');"><img class="fullimg" src="customers/'.$name.'" alt="'.$alt.'" style="height:100px;"></label></div>-->
-    </div>
   				';
  }
 
@@ -63,13 +60,14 @@ foreach($customers as $key=>$name)
 	</div>
 	</div>
 	<script type="text/javascript">
-	function showMenu(id) {
-    if ( document.getElementById(id).style.display =="block") 
-    {
-    	document.getElementById(id).style.display = "none";
-    }else
+	function showMenu(imag) {
+		var id=imag;
+    if ( document.getElementById(id).style.display =="none") 
     {
     	document.getElementById(id).style.display = "block";
+    }else
+    {
+    	document.getElementById(id).style.display = "none";
     }
 
 }

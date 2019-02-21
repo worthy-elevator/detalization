@@ -1,0 +1,48 @@
+.button-setting{
+	margin: auto 0 ;
+  height: 46px;
+	float: left;
+}
+.button-setting li{
+  float: left;
+
+  margin: auto 0;
+}
+.button-setting ul {
+  overflow: hidden;
+  padding: 0;
+padding: 35 0 35 10;
+}
+
+.button-setting a {
+  display: block;
+  padding: 0.5em;
+
+  color: white;
+  font-size: 17px;
+}
+
+a {all: unset;}
+
+.button-setting a:hover {background: black}
+
+.button-setting a:hover {
+      border: 0px solid #ADC0CE;
+  border-radius: 15px;
+  background-color: black;
+}
+
+.menu-button 
+{
+height: 110px;
+width:940px; 
+margin: 0 auto;
+}
+
+@media(max-width: 940px)
+{
+    .menu-button
+  {
+    width: 719px;
+  }
+}
