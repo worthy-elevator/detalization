@@ -18,6 +18,15 @@ echo'<style>#index
 }
 </style>';
 banner();
+
+?>
+
+<div class="container" style="width: 930px; margin: 0 auto;">
+	<div class="container-left" style="float: left;width:640px;">
+		
+	</div>
+
+<?
 menu_right();
 ?>
 </body>

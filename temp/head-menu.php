@@ -25,8 +25,8 @@ function menu(){
    				    <li><a href="services.php" id="services">Услуги</a></li>
    				    <li style="';
               include ('./dev/fuckinoff.php');
-              echo'"><a href="1.html">Наши заказчики</a></li>
-   				    <li><a href="1.html">Контакты</a></li>
+              echo'"><a href="customers.php" id="customers">Наши заказчики</a></li>
+   				    <li><a href="contacts.php" id="contacts">Контакты</a></li>
   				  </ul>
 				  </div>
           <div class="contacts">

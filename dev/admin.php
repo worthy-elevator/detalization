@@ -23,7 +23,11 @@ if($_POST['submit']=='on')
 if (empty($_FILES['uploadfile'])) {
     $errorMSG = "не выбрали кортинку";
 } else {
-	copy($_FILES['uploadfile']['tmp_name'],"../customers/".basename($_FILES['uploadfile']['name']));
+	$name=$_FILES['uploadfile']['name'];
+	$name= str_replace(" ","~",$name);
+	$name=iconv('UTF-8','Windows-1251', $name);
+	
+	copy($_FILES['uploadfile']['tmp_name'],"../customers/".basename($name));
 }
 
 if (empty($_POST['delete'])) {
