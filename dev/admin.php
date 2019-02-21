@@ -26,39 +26,19 @@ if (empty($_FILES['uploadfile'])) {
 } else {
 	copy($_FILES['uploadfile']['tmp_name'],"../customers/".basename($_FILES['uploadfile']['name']));
 }
-	$name=$_FILES['uploadfile']['name'];
-echo $name;
-
-if ($errorMSG === ""){
-	$servername = "localhost";
-	$username = "root";
-	$password = "";
-	$dbname = "123_db";
-
-	try {
-	$conn = new mysqli($servername, $username, $password, $dbname);
-	// Check connection
-	if ($conn->connect_error) {
-		die("Connection failed: " . $conn->connect_error);
-	} 
-	$stmt = $conn->prepare('INSERT INTO `customers` (name) VALUES (?)');
-	
-	$stmt->bind_param("s", $name);
-
-	$stmt->execute();
-		
-
-	echo "Позиция теперь на своем месте!";
-	$stmt->close();
-	$conn->close();
-	}
-	catch(PDOException $e)
-    {
-		echo "Error: " . $e->getMessage();
+$folder = "../customers/";
+  $dircontent = scandir($folder);
+  print_r($dircontent);
+  $arr = array();
+  foreach($dircontent as $filename) {
+    if ($filename != '.' && $filename != '..') {
+      if (filemtime($folder.$filename) === false) return false;
+      $dat = filemtime($folder.$filename);
+      $customers[$dat] = $filename;
     }
-	$conn = null;
-}
-
+  }
+  ksort($customers);
+  print_r($customers);
 
 ?>
   <head>
@@ -86,5 +66,23 @@ if ($errorMSG === ""){
 			<input type=file name=uploadfile>
 			<input type=submit value=Загрузить>
 		</form>
+	</div>
+	<div class="customers-list">
+		<table>
+  			<? foreach($customers)
+  			{
+  				$name=$customers['i'];
+  				echo '<tr>
+    			<td>'..'</td>
+    			<td>button</td>
+  			</tr>';
+  			}
+  			?>
+
+  			<tr>
+    			<td>name</td>
+    			<td>button</td>
+  			</tr>
+		</table>
 	</div>
 </body>
