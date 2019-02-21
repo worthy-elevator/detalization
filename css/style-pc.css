@@ -21,11 +21,8 @@ padding: 35 0 35 10;
   color: white;
   font-size: 17px;
 }
-.button-setting a:hover {background: black}
 
-a {
-   all: unset;
-}
+.button-setting a:hover {background: black}
 
 .button-setting a:hover {
       border: 0px solid #ADC0CE;

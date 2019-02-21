@@ -119,6 +119,12 @@ border-spacing: 0;
   text-align: center;
 }
 
+.menu-right  li a:hover {
+      border: 0px solid #ADC0CE;
+  border-radius: 15px;
+  background-color: bisque;
+}
+
 @media (max-width: 940px)
 {
   .contacts

@@ -21,7 +21,7 @@ function menu_right()
 				</div>
 			</div>
 		</div>
-		<div class="menu-right" style="float: right; width:290px">
+		<div class="menu-right" style="float: right; width:290px" id="none-copy">
 			<p class= "servises-name" style = "margin: 10px 0 0 65px; font-size: 25px;"> <a href = "services.php">Услуги</a> </p>
 			<ul style="margin-left:30px; margin-top:20px;">
 				<li style="padding-bottom:5px"><a href="">Шлифовальная обработка</a></li>
