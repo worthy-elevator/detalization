@@ -4,7 +4,7 @@ function banner(){
 	<div class="banner">
 		<div class="banner-items">
 			<div class="banner-img">
-				<img src="/img/banner.jpg">
+				<img src="/img/banner.jpg" style="width:640px">
 			
 			</div>
 			<div class="banner-words">
