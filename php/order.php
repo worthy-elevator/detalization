@@ -13,10 +13,10 @@ if(!empty($_POST['send'])) {
 
 	$Nzakaz = rand(10000, 99999);
 
-	$mess  = "Имя: <b>".$name."</b><br />";
-	$mess .= "Телефон: <b>".$tel."</b><br />";
-    $mess .= "Email: <b>".$email."</b><br />";
-    $mess .= "Сообщение: <b>".$message."</b><br />";
+	$mess  = "Имя: ".$name.". ";
+	$mess .= "Телефон: ".$tel.". ";
+    $mess .= "Email: ".$email.". ";
+    $mess .= "Сообщение: ".$message.". ";
 	
 	$theme = "Заявка Z".$Nzakaz;
 
