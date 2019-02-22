@@ -53,7 +53,7 @@ foreach($services as $key=>$name)
           }
           </style>
 <div class="pics" style="margin:10 15 10 5">
-      <div class="image"><input id="'.$key.'1" type="checkbox"><label for="'.$key.'1" onclick="showMenu('.$key.')" style="background-image: url(/services/3/'.$name.');"><img class="fullimg" src="/services/3/'.$name.'" alt="'.$alt.'" id="'.$key.'" style="height:120px;"></label></div>
+      <div class="image"><input id="'.$key.'1" type="checkbox"><label for="'.$key.'1" onclick="showImg('.$key.')" style="background-image: url(/services/3/'.$name.');"><img class="fullimg" src="/services/3/'.$name.'" alt="'.$alt.'" id="'.$key.'" style="height:120px;"></label></div>
     </div>
           ';
  }
@@ -63,7 +63,7 @@ foreach($services as $key=>$name)
   </div>
   </div>
   <script type="text/javascript">
-  function showMenu(imag) {
+  function showImg(imag) {
     var id=imag;
     if ( document.getElementById(id).style.display =="none") 
     {

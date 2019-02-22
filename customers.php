@@ -50,7 +50,7 @@ foreach($customers as $key=>$name)
   				}
   				</style>
   				<div>
-  					<img src="customers/'.$name.'" id="'.$key.'"  alt="'.$alt.'" style="height:100px; float:left; margin: 20 " onclick="showMenu('.$key.')">
+  					<img src="customers/'.$name.'" id="'.$key.'"  alt="'.$alt.'" style="height:100px; float:left; margin: 20 " onclick="showImg('.$key.')">
   				</div>
   				';
  }

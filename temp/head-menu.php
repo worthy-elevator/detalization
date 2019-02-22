@@ -81,7 +81,7 @@ function menu2(){
           <div class="company-name" id="none-copy">
             <p>Компас-Деталь</p>
           </div>
-					<div class="menu-icon" style="" onclick="showMenu()">
+					<div class="menu-icon" style="" onclick="showImg()">
 	          <div class="container">
 
 
