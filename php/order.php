@@ -20,7 +20,7 @@ if(!empty($_POST['send'])) {
 	
 	$theme = "Заявка Z".$Nzakaz;
 
-	mail("boplkj@yandex.ru", $theme, $mess);
+	mail("testpost-detalization@yandex.ru", $theme, $mess);
 	
 	echo "<h3>Заявка удачно оформлена.</h3>";
 	echo "<p>Заявке присвоен номер Z".$Nzakaz.". Наш менеджер свяжется с вами в ближайшее время.</p>";
