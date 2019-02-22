@@ -23,8 +23,8 @@ banner();
 
 <div class="container" style="width: 930px; margin: 0 auto;">
 	<div class="container-left" style="float: left;width:640px;">
-		<div id="content" style="height:; width:630px; margin:0 auto; border:1px solid black; padding:200px 100px; text-align:center;">
-    <a href="#" id="callback">Заказать обратный звонок</a>
+		<div id="content" style="text-align:center;position: fixed;right: 20;bottom: 20;">
+    <a href="#" id="callback"><img src="./img/checkbox.png" style="width: 30;height: 30"></a>
 </div>
 <div id="popup">
     <form id="contact_form" role="form" method="post" action="./php/order.php">
