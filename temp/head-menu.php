@@ -7,6 +7,12 @@ function menu(){
   <link href="css/style.css" type="text/css" rel="stylesheet">
   <link href="css/style-pc.css" type="text/css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Marmelad" rel="stylesheet"> 
+  <meta name="description" content="" />
+<meta name="keywords" content="" /> 
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script type="text/javascript" src="./js/jquery-1.7.2.min.js" ></script>
+<script type="text/javascript" src="./js/script.js"></script>
 </head>
 <body>
 	<div class="header">

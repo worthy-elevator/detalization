@@ -23,7 +23,19 @@ banner();
 
 <div class="container" style="width: 930px; margin: 0 auto;">
 	<div class="container-left" style="float: left;width:640px;">
-		
+		<div id="content" style="height:; width:630px; margin:0 auto; border:1px solid black; padding:200px 100px; text-align:center;">
+    <a href="#" id="callback">Заказать обратный звонок</a>
+</div>
+<div id="popup">
+    <form id="contact_form" role="form" method="post" action="./php/order.php">
+        <h3>Напишите нам</h3>
+        <input type="text" name="name"  placeholder="Как к вам обращаться?">
+        <input type="text" name="tel"  class="required" placeholder="Контакный телефон (обязательно)">
+        <input type="text" name="email" placeholder="Email">
+        <textarea name="message" placeholder="Текст сообщения" rows="5"></textarea>
+        <a href="#" class="btn button form_submit">Заказать</a>
+    </form>
+</div>
 	</div>
 
 <?
