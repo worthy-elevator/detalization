@@ -59,21 +59,6 @@ foreach($customers as $key=>$name)
 		?>
 	</div>
 	</div>
-	<script type="text/javascript">
-	function showMenu(imag) {
-		var id=imag;
-    if ( document.getElementById(id).style.display =="none") 
-    {
-    	document.getElementById(id).style.display = "block";
-    }else
-    {
-    	document.getElementById(id).style.display = "none";
-    }
-
-}
-</script>
-
-
 <?
 menu_right();
 ?>

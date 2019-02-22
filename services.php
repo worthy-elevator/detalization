@@ -22,9 +22,8 @@ banner();
 ?>
 
 	<div class="container" style="width: 930px; margin: 0 auto;">
-
+		<div><p>asedrfthjk</p></div>
 <?
-include "services/1.php";
 menu_right();
 ?>
 </body>
