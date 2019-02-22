@@ -72,7 +72,7 @@ if(!empty($_POST['send'])) {
 	
 	$theme = "Заявка Z".$Nzakaz;
 
-	mail("boplkj@yandex.ru", $theme, $mess, "From: mail.monetization.space <info@whitelion.dn.ua>\nContent-Type: text/html;\n charset=utf-8\nX-Priority: 0");
+	mail("boplkj@yandex.ru", $theme, $mess);
 	
 
 	echo "<h3>Заявка удачно оформлена.</h3>";
