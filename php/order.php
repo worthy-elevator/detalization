@@ -11,19 +11,17 @@ if(!empty($_POST['send'])) {
 	
 	$ip = $_SERVER['REMOTE_ADDR'];
 
-	$Nzakaz = rand(10000, 99999);
 
 	$mess  = "Имя: ".$name.". ";
 	$mess .= "Телефон: ".$tel.". ";
     $mess .= "Email: ".$email.". ";
     $mess .= "Сообщение: ".$message.". ";
 	
-	$theme = "Заявка Z".$Nzakaz;
 
 	mail("testpost-detalization@yandex.ru", $theme, $mess);
 	
-	echo "<h3>Заявка удачно оформлена.</h3>";
-	echo "<p>Заявке присвоен номер Z".$Nzakaz.". Наш менеджер свяжется с вами в ближайшее время.</p>";
+	echo '<h3 style = "font-size : 18px; text-align : center; " >Спасибо, что обратились к нам!</h3>';
+	echo "<p> Наш менеджер свяжется с вами в ближайшее время!</p>";
         
     }
 else {
