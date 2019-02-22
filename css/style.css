@@ -194,7 +194,32 @@ input:checked + label  {
   .banner-words
   {
     position: absolute;
-    padding: 9em 0 0 30px;
+    padding: 7em 0 0 20px;
   }
-  
+}
+
+@media (max-width: 690px)
+{
+  .banner
+  {
+    height: unset;
+  }
+  .banner-items
+  {
+    width: 100vw;
+    height:unset;
+  }
+  .banner-img
+  {
+    width: 95vw;
+    position: unset;
+  }
+    .banner-words
+  {
+    width: 290px;
+    margin: 0 auto;
+    position: unset;
+    float: unset;
+    padding: 2em 0 2em 20px;
+  }
 }
