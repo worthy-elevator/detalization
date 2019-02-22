@@ -1,6 +1,6 @@
 ﻿<?php
-echo '<div id="content" style="text-align:center;position: fixed;right: 20;bottom: 20;">
-    <a href="#" id="callback"><img src="./img/phone.png" style="width: 100;height: 100"></a>
+echo '<div id="content" style="text-align:center;position: fixed;right: 40;bottom: 40;">
+    <a href="#" id="callback"><img src="./img/phone.png" style="width: 70;height: 70"></a>
 </div>
 <div id="popup">
     <form id="contact_form" role="form" method="post" action="./php/order.php">

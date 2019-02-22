@@ -59,7 +59,7 @@ $folder = "../customers/";
 <body>
 	<a href="../index.php">Вернуться на сайт</a>
 	<a href="admin.php?do=logout">Выход из учетной записи</a>
-	<a href="services-control.php">Управление В услугах</a>
+	<a href="services-control.php?page=1">Управление В услугах</a>
 	<br>
 	<?
 	echo '<br>'.$_POST['submit'].'<br>';

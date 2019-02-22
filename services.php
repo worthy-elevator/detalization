@@ -22,7 +22,7 @@ banner();
 ?>
 
 	<div class="container" style="width: 930px; margin: 0 auto;">
-		<div><p>asedrfthjk</p></div>
+		<div></div>
 <?
 menu_right();
 ?>

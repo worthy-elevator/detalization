@@ -119,12 +119,19 @@ border-spacing: 0;
   text-align: center;
 }
 
-.menu-right  li a:hover {
+.menu-right li {
+    list-style-type: none; /* Убираем маркеры у списка */
+   }
+/*.menu-right li:before {
+    content: "҈ "; /* Добавляем в качестве маркера символ 
+   }*/
+/*.menu-right  li a:hover {
       border: 0px solid #ADC0CE;
   border-radius: 15px;
-  background-color: bisque;
+  background-color: grey;
+  color:white;
 }
-
+*/
 .pics {
   display: inline-block;
   
@@ -162,7 +169,7 @@ input:checked + label  {
 /*  transform: translate(calc(2em + 160px - 100vw), calc(0px - 120px - 2em));
 */
   background-color: rgba(10,10,10,.9);
-  background-size: auto;
+  background-size: 60vw;
   z-index: 99999;
 }
 

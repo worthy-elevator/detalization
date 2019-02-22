@@ -8,17 +8,19 @@
     position: fixed;
     top: 50%;
     z-index: 2000;
-    background:#eeeeee;
+    background-image: url(/img/mb2.jpg);
+    
     width:420px;
     height: 330px;
     padding:10px 20px 20px 20px;
+    border-radius: 10px;
 }
     *html #popup  {
         position: absolute;
     }
 
     #popup h3{
-        color:#ab6969;
+        color:white;
         font-size:30px;
         font-weight:normal;
         text-transform:uppercase;
@@ -66,7 +68,7 @@
             #popup .button {
                 font-size: 16px;
                 box-sizing: border-box;
-                background: #ab6969;
+                background-image: url(/img/button-back.jpg);
                 width: 140px;
                 height: 35px;
                 line-height: 35px;
@@ -76,13 +78,9 @@
                 color: #ffffff;
                 float:right;
                 text-shadow: none;
-                border: 1px solid #705062;
-                border-radius: 0;
+                border: 0px solid #705062;
+                border-radius: 10px;
             }
-                #popup .button:hover {
-                    background: rgba(171, 105, 105, 0.88);
-                 }
-
     #popup_close {
         display:block;
         position: absolute;

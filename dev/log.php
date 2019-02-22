@@ -4,7 +4,7 @@ if($_SESSION['admin']){
  header("Location: admin.php");
  exit;
 }
-$admin = 'chelovek';
+$admin = 'admin';
 $pass = 'a029d0df84eb5549c641e04a9ef389e5';
 
 if($_POST['submit']){
