@@ -20,7 +20,7 @@ if(!empty($_POST['send'])) {
 
 	mail("testpost-detalization@yandex.ru", $theme, $mess);
 	
-	echo "<h3>Заявка удачно оформлена.</h3>";
+	echo '<h3 style = "font-size : 18px; text-align : center; " >Спасибо, что обратились к нам!</h3>';
 	echo "<p> Наш менеджер свяжется с вами в ближайшее время!</p>";
         
     }

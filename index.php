@@ -28,7 +28,7 @@ banner();
 </div>
 <div id="popup">
     <form id="contact_form" role="form" method="post" action="./php/order.php">
-        <h3>Напишите нам</h3>
+        <h3 style = "font-size : 18px; text-align : center;">Укажите свои данные! </h3>
         <input type="text" name="name"  placeholder="Как к вам обращаться?">
         <input type="text" name="tel"  class="required" placeholder="Контакный телефон (обязательно)">
         <input type="text" name="email" placeholder="Email">
