@@ -5,7 +5,7 @@ function menu_right()
 	echo '
 		<div class="menu-right" style="float: right; width:290px;" id="none-copy">
 			<p class= "servises-name" style = "margin: 30px 0 0 65px; font-size: 25px;"> <a href = "services.php">Услуги</a> </p>
-			<ul style="margin-left:30px; margin-top:20px;">
+			<ul class = "all-services" style="margin-left:30px; margin-top:20px;">
 				<li style="padding-bottom:5px"><a href="service-1.php"> Шлифовальная обработка</a></li>
 				<li style="padding-bottom:5px"><a href="service-2.php"> Токарные работы</a></li>
 				<li style="padding-bottom:5px"><a href="service-3.php"> Фрезерная обработка</a></li>

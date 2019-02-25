@@ -22,7 +22,194 @@ banner();
 ?>
 
 	<div class="container" style="width: 930px; margin: 0 auto;">
-		<div></div>
+		<div class="container-left" style="float: left;width:640px;">
+			<div class="services-list" style="font-size: 35px; text-align: center; margin-top: 23px; ">
+				Мы выполняем широкий спектр работ:
+			</div>
+			<div class="service" style="margin: 30 20 0 20">
+				<div class="service-label" style="font-size: 30px">
+					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
+					<a href="service-1.php" id="none-copy">Токарная обработка</a>
+				</div>
+				<div class="description" style="text-indent: 30px; text-align: justify;">
+					Токарная обработка – это механическая обработка специальными режущими 
+инструментами поверхности тела вращения: цилиндрических, конических...
+				</div>
+				<a href="service-1.php" style="color: blue;" id="none-copy" style="margin-left: 20px;">Подробнее</a>
+				<div class="service-image">
+					<img src="">
+				</div>
+				
+			</div>
+			<div class="service" style="margin: 30 20 0 20">
+				<div class="service-label" style="font-size: 30px">
+					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
+					Токарная обработка
+				</div>
+				<div class="description" style="text-indent: 30px; text-align: justify;">
+					Токарная обработка – это механическая обработка специальными режущими 
+инструментами поверхности тела вращения: цилиндрических, конических...
+				</div>
+				<a href="service-1.php" style="color: blue;" id="none-copy">Подробнее</a>
+				<div class="service-image">
+					<img src="">
+				</div>
+			</div>
+			<div class="service" style="margin: 30 20 0 20">
+				<div class="service-label" style="font-size: 30px">
+					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
+					Токарная обработка
+				</div>
+				<div class="description" style="text-indent: 30px; text-align: justify;">
+					Токарная обработка – это механическая обработка специальными режущими 
+инструментами поверхности тела вращения: цилиндрических, конических...
+				</div>
+				<a href="service-1.php" style="color: blue;" id="none-copy">Подробнее</a>
+				<div class="service-image">
+					<img src="">
+				</div>
+			</div>
+			<div class="service" style="margin: 30 20 0 20">
+				<div class="service-label" style="font-size: 30px">
+					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
+					Токарная обработка
+				</div>
+				<div class="description" style="text-indent: 30px; text-align: justify;">
+					Токарная обработка – это механическая обработка специальными режущими 
+инструментами поверхности тела вращения: цилиндрических, конических...
+				</div>
+				<a href="service-1.php" style="color: blue;" id="none-copy">Подробнее</a>
+				<div class="service-image">
+					<img src="">
+				</div>
+			</div>
+			<div class="service" style="margin: 30 20 0 20">
+				<div class="service-label" style="font-size: 30px">
+					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
+					Токарная обработка
+				</div>
+				<div class="description" style="text-indent: 30px; text-align: justify;">
+					Токарная обработка – это механическая обработка специальными режущими 
+инструментами поверхности тела вращения: цилиндрических, конических...
+				</div>
+				<a href="service-1.php" style="color: blue;" id="none-copy">Подробнее</a>
+				<div class="service-image">
+					<img src="">
+				</div>
+			</div>
+			<div class="service" style="margin: 30 20 0 20">
+				<div class="service-label" style="font-size: 30px">
+					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
+					Токарная обработка
+				</div>
+				<div class="description" style="text-indent: 30px; text-align: justify;">
+					Токарная обработка – это механическая обработка специальными режущими 
+инструментами поверхности тела вращения: цилиндрических, конических...
+				</div>
+				<a href="service-1.php" style="color: blue;" id="none-copy">Подробнее</a>
+				<div class="service-image">
+					<img src="">
+				</div>
+			</div>
+			<div class="service" style="margin: 30 20 0 20">
+				<div class="service-label" style="font-size: 30px">
+					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
+					Токарная обработка
+				</div>
+				<div class="description" style="text-indent: 30px; text-align: justify;">
+					Токарная обработка – это механическая обработка специальными режущими 
+инструментами поверхности тела вращения: цилиндрических, конических...
+				</div>
+				<a href="service-1.php" style="color: blue;" id="none-copy">Подробнее</a>
+				<div class="service-image">
+					<img src="">
+				</div>
+			</div>
+			<div class="service" style="margin: 30 20 0 20">
+				<div class="service-label" style="font-size: 30px">
+					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
+					Токарная обработка
+				</div>
+				<div class="description" style="text-indent: 30px; text-align: justify;">
+					Токарная обработка – это механическая обработка специальными режущими 
+инструментами поверхности тела вращения: цилиндрических, конических...
+				</div>
+				<a href="service-1.php" style="color: blue;" id="none-copy">Подробнее</a>
+				<div class="service-image">
+					<img src="">
+				</div>
+			</div>
+			<div class="service" style="margin: 30 20 0 20">
+				<div class="service-label" style="font-size: 30px">
+					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
+					Токарная обработка
+				</div>
+				<div class="description" style="text-indent: 30px; text-align: justify;">
+					Токарная обработка – это механическая обработка специальными режущими 
+инструментами поверхности тела вращения: цилиндрических, конических...
+				</div>
+				<a href="service-1.php" style="color: blue;" id="none-copy">Подробнее</a>
+				<div class="service-image">
+					<img src="">
+				</div>
+			</div>
+			<div class="service" style="margin: 30 20 0 20">
+				<div class="service-label" style="font-size: 30px">
+					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
+					Токарная обработка
+				</div>
+				<div class="description" style="text-indent: 30px; text-align: justify;">
+					Токарная обработка – это механическая обработка специальными режущими 
+инструментами поверхности тела вращения: цилиндрических, конических...
+				</div>
+				<a href="service-1.php" style="color: blue;" id="none-copy">Подробнее</a>
+				<div class="service-image">
+					<img src="">
+				</div>
+			</div>
+			<div class="service" style="margin: 30 20 0 20">
+				<div class="service-label" style="font-size: 30px">
+					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
+					Токарная обработка
+				</div>
+				<div class="description" style="text-indent: 30px; text-align: justify;">
+					Токарная обработка – это механическая обработка специальными режущими 
+инструментами поверхности тела вращения: цилиндрических, конических...
+				</div>
+				<a href="service-1.php" style="color: blue;" id="none-copy">Подробнее</a>
+				<div class="service-image">
+					<img src="">
+				</div>
+			</div>
+			<div class="service" style="margin: 30 20 0 20">
+				<div class="service-label" style="font-size: 30px">
+					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
+					Токарная обработка
+				</div>
+				<div class="description" style="text-indent: 30px; text-align: justify;">
+					Токарная обработка – это механическая обработка специальными режущими 
+инструментами поверхности тела вращения: цилиндрических, конических...
+				</div>
+				<a href="service-1.php" style="color: blue;" id="none-copy">Подробнее</a>
+				<div class="service-image">
+					<img src="">
+				</div>
+			</div>
+						<div class="service" style="margin: 30 20 0 20">
+				<div class="service-label" style="font-size: 30px">
+					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
+					Токарная обработка
+				</div>
+				<div class="description" style="text-indent: 30px; text-align: justify;">
+					Токарная обработка – это механическая обработка специальными режущими 
+инструментами поверхности тела вращения: цилиндрических, конических...
+				</div>
+				<a href="service-1.php" style="color: blue;" id="none-copy">Подробнее</a>
+				<div class="service-image">
+					<img src="">
+				</div>
+			</div>
+		</div>
 <?
 menu_right();
 ?>

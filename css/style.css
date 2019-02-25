@@ -120,7 +120,9 @@ border-spacing: 0;
 }
 
 .menu-right li {
-    list-style-type: none; /* Убираем маркеры у списка */
+    list-style-type: square;
+    color:  #002FD1;
+     /* Убираем маркеры у списка */
    }
 /*.menu-right li:before {
     content: "҈ "; /* Добавляем в качестве маркера символ 
@@ -140,9 +142,11 @@ border-spacing: 0;
   display: inline-block;
   width: auto;
   height: 120px;
+   box-shadow: 0 0 15px ;
 }
 .image input[type="checkbox"] {
   display: none;
+
 }
 .image input + label {
   display: block;
@@ -222,4 +226,21 @@ border-spacing: 0;
     float: unset;
     padding: 2em 0 2em 20px;
   }
+}
+.all-services a:hover {
+      
+  color: #4C85F0; 
+}
+.all-services a{
+  color: black
+}
+.container-left {
+    box-shadow: 7px 0 10px -5px #333;
+}
+
+.service
+{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 15px;
 }

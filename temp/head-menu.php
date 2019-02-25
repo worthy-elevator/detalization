@@ -7,6 +7,7 @@ function menu(){
   <link href="css/style.css" type="text/css" rel="stylesheet">
   <link href="css/style-pc.css" type="text/css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Marmelad" rel="stylesheet"> 
+  <script src="https://www.google.com/recaptcha/api.js?hl=ru" async defer></script>
   <meta name="description" content="" />
 <meta name="keywords" content="" /> 
 <link rel="stylesheet" type="text/css" href="style.css"/>
@@ -25,6 +26,7 @@ function menu(){
         <input type="text" name="tel"  class="required" placeholder="Контакный телефон (обязательно)">
         <input type="text" name="email" placeholder="Email">
         <textarea name="message" placeholder="Текст сообщения" rows="5"></textarea>
+        <div class="g-recaptcha" data-sitekey="6LdtvJMUAAAAAAZrYlKHXYIpbdjza7ESJvZPGW4N"></div>
         <a href="#" class="btn button form_submit">Заказать</a>
     </form>
 </div>
