@@ -62,7 +62,7 @@ h1 {
     text-align: center;
 }
 
-.container {
+.container-box {
     width: 70%;
     margin: 0 auto;
     display: flex;
@@ -158,6 +158,11 @@ h1 {
 .checkbox4:checked + label > .hamburger4 > .bar5{
     bottom: 13.5px;
     background-color: transparent; 
+}
+
+.menu-right
+{
+  display: none;
 }
 
 @media(max-width: 940px)

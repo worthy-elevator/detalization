@@ -21,8 +21,8 @@ function recaptchaCallback() {
     $("#submitBtn").removeAttr("style");
 };
 </script>
-<div id="content" style="text-align:center;position: fixed;right: 40;bottom: 40;">
-    <a href="#" id="callback"><img src="./img/phone.png" style="width: 70;height: 70"></a>
+<div id="content">
+    <a href="#" id="callback"><img src="./img/phone.png"></a>
 </div>
 <div id="popup">
     <form id="contact_form" role="form" method="post" action="./php/order.php">
@@ -89,7 +89,7 @@ function menu2(){
             <p>Компас-Деталь</p>
           </div>
 					<div class="menu-icon" style="" onclick="showImg()">
-	          <div class="container">
+	          <div class="container-box">
 
 
         <input type="checkbox" id="checkbox4" class="checkbox4 visuallyHidden">

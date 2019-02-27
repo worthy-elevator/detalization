@@ -242,8 +242,14 @@ border-spacing: 0;
 .customers-img img
 {
   height:100px; 
-  float:left; 
-  margin: 20; 
+  float:left;  
+  margin: 20px;
+}
+
+.services-img img
+{
+  height:100px; 
+  float:left;  
 }
 
 .works-text
@@ -253,8 +259,40 @@ border-spacing: 0;
   padding: 0 0 20 0
 }
 
+.menu-right
+{
+  width: 290px;
+  float: right;
+}
+
+.services-name
+{
+  margin: 30px 0 0 65px; 
+  font-size: 25px;
+}
+
+.all-services
+{
+  margin-left:30px; 
+  margin-top:20px;
+}
+
+.all-services li
+{
+  padding-bottom:5px
+}
+
+.service-button
+{
+    display: none;
+}
+
 @media (max-width: 940px)
 {
+  .service-img img
+  {
+    width: 100%;
+  }
   .contacts
   {
     display: none;
@@ -275,6 +313,42 @@ border-spacing: 0;
   {
     position: absolute;
     padding: 7em 0 0 20px;
+  }
+  .container{
+    width: 100%;
+  }
+  .container-left
+  {
+    width: 69%;
+  }
+  .menu-right
+  {
+    width: 31%;
+  }
+}
+
+@media (max-width: 790px)
+{
+  .menu-right
+  {
+    display: none;
+  }
+  .service-button
+  {
+    transform: rotate(90deg);
+    display: block;
+      text-align: center;
+    position: fixed;
+    right: 0;
+    bottom: 160;
+  }
+  .container-left
+  {
+    width: 100%;
+  }
+  .service-label
+  {
+    padding: 10 0;
   }
 }
 
@@ -303,6 +377,7 @@ border-spacing: 0;
     padding: 2em 0 2em 20px;
   }
 }
+
 .all-services a:hover {
       
   color: #4C85F0; 

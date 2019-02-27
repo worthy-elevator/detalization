@@ -21,8 +21,8 @@ echo'<style>#services
 banner();
 ?>
 
-	<div class="container" style="width: 930px; margin: 0 auto;">
-		<div class="container-left" style="float: left;width:640px;">
+	<div class="container" >
+		<div class="container-left">
 			<div class="services-list" style="font-size: 35px; text-align: center; margin-top: 23px; ">
 				Мы выполняем широкий спектр работ:
 			</div>

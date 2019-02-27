@@ -23,7 +23,15 @@ banner();
 
 <div class="container" style="width: 930px; margin: 0 auto;">
   <div class="container-left" style="float: left;width:640px;">
-    <div class="customers-img" style="<?include ('./services/9/fuckinoff.php');?>margin: 50 0">
+    <p class="service-label">Шлифовальная обработка</p>
+    <div class="service-img">
+      <img src="/img/9.jpg"></div>
+    <p class="service-text">Токарная обработка – это механическая обработка специальными режущими 
+инструментами поверхности тела вращения: цилиндрических, конических. Разновидность 
+токарных работ: отрезание, снятие фасок, нарезание резьбы. Токарная обработка – одна из самых 
+древних технических операций, которая была механизирована. Специалисты компании Компас-Деталь выполняют работы на новейшем токарном оборудовании, благодаря нашему опыту и технической базе вы получаете продукт наивысшего качества!<br></p>
+    <p class="fnk-crm">Наша команда работает в городе Симферополе. Так же возможна доставка по Крыму.</p>
+    <div class="services-img" style="<?include ('./services/9/fuckinoff.php');?>margin: 50 0">
     <?
 $folder = "services/9/";
   $dircontent = scandir($folder);

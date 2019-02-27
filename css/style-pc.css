@@ -46,3 +46,39 @@ margin: 0 auto;
     width: 719px;
   }
 }
+@media(max-width: 720px)
+{
+  .menu-button
+  {
+    width: 100%
+  }
+  .company-name
+  {
+    display: none;
+  }
+}
+@media(max-width: 500px)
+{
+  .logo
+  {
+    display: none;
+  }
+}
+
+@media(max-width: 380px)
+{
+  .button-setting ul
+  {
+    padding: 25 0 35 10;
+  }
+}
+
+@media(max-width: 232px)
+{
+  body
+  {display: none;}
+  .error-llol
+  {
+    display: block;
+  }
+}
