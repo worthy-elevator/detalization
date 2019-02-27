@@ -87,6 +87,8 @@ border-spacing: 0;
   -webkit-user-select: none; /* Chrome, Safari, and Opera */
   -webkit-touch-callout: none;
 }
+
+
 .banner
 {
   background-image: url(/img/info-back.jpg); 
