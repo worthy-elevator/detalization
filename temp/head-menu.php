@@ -18,7 +18,7 @@ function menu(){
 <body>
 <script type="text/javascript">
 function recaptchaCallback() {
-    $("#submitBtn").removeAttr("disabled");
+    $("#submitBtn").removeAttr("style");
 };
 </script>
 <div id="content" style="text-align:center;position: fixed;right: 40;bottom: 40;">
