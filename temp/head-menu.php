@@ -16,6 +16,12 @@ function menu(){
 <script type="text/javascript" src="./js/script.js"></script>
 </head>
 <body>
+<script type="text/javascript">
+var elements = document.getElementsByClassName("recaptcha-checkbox-checkmark");
+  if(elements.classList.contains("recaptcha-checkbox-checked"))
+  {document.getElementById("button").style.display = "block";}
+  else{document.getElementById("button").style.display = "none";}
+</script>
 <div id="content" style="text-align:center;position: fixed;right: 40;bottom: 40;">
     <a href="#" id="callback"><img src="./img/phone.png" style="width: 70;height: 70"></a>
 </div>
@@ -27,7 +33,7 @@ function menu(){
         <input type="text" name="email" placeholder="Email">
         <textarea name="message" placeholder="Текст сообщения" rows="5"></textarea>
         <div class="g-recaptcha" data-sitekey="6LdtvJMUAAAAAAZrYlKHXYIpbdjza7ESJvZPGW4N"></div>
-        <a href="#" class="btn button form_submit">Заказать</a>
+        <a href="#" id="button" class="btn button form_submit" style="display:none;">Заказать</a>
     </form>
 </div>
 	<div class="header">
@@ -60,7 +66,7 @@ function menu(){
   </div>
   </div>
 ';}
-
+//.recaptcha-checkbox-checked
 function menu2(){
 	echo'
 <head>
