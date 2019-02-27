@@ -21,18 +21,18 @@ echo'<style>#services
 banner();
 ?>
 
-<div class="container" style="width: 930px; margin: 0 auto;">
-  <div class="container-left" style="float: left;width:640px;">
-    <p class="servise-label" style="font-size: 30px; text-align: center; padding: 30 0 20 0">Шлифовальная обработка</p>
-    <div style="padding: 0 20">
-      <img src="/img/1.png" style="width: 600px; box-shadow: 0 0 10px "></div>
-    <p class="service-text" style="font-size: 17px; padding: 20 20; text-indent: 30px; text-align: justify;">Токарная обработка – это механическая обработка специальными режущими 
+<div class="container">
+  <div class="container-left">
+    <p class="service-label">Шлифовальная обработка</p>
+    <div class="service-img">
+      <img src="/img/1.jpg"></div>
+    <p class="service-text">Токарная обработка – это механическая обработка специальными режущими 
 инструментами поверхности тела вращения: цилиндрических, конических. Разновидность 
 токарных работ: отрезание, снятие фасок, нарезание резьбы. Токарная обработка – одна из самых 
 древних технических операций, которая была механизирована. Специалисты компании Компас-Деталь выполняют работы на новейшем токарном оборудовании, благодаря нашему опыту и технической базе вы получаете продукт наивысшего качества!<br></p>
-    <p style="font-size: 20px; padding: 0 20; text-align: justify; font-family: 'Marmelad', sans-serif;">Наша команда работает в городе Симферополе. Так же возможна доставка по Крыму.</p>
-    <div class="customers-img" style="<?include ("./services/1/fuckinoff.php");?>margin: 50 0">
-      <p class="works-text" style="font-size: 30px; text-align: center; padding: 0 0 20 0">Наши работы</p>
+    <p class="fnk-crm">Наша команда работает в городе Симферополе. Так же возможна доставка по Крыму.</p>
+    <div class="customers-img" style="<?include ("./services/1/fuckinoff.php");?>">
+      <p class="works-text">Наши работы</p>
     <?
 $folder = "services/1/";
   $dircontent = scandir($folder);

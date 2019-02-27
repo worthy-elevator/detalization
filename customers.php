@@ -21,9 +21,9 @@ echo'<style>#customers
 banner();
 ?>
 
-<div class="container" style="width: 930px; margin: 0 auto;">
-	<div class="container-left" style="float: left;width:640px;">
-		<div class="customers-img" style="margin: 50 0">
+<div class="container">
+	<div class="container-left">
+		<div class="customers-img">
 		<?
 $folder = "customers/";
   $dircontent = scandir($folder);
@@ -49,8 +49,8 @@ foreach($customers as $key=>$name)
   					background-image: url(/customers/'.$key.');
   				}
   				</style>
-  				<div>
-  					<img src="customers/'.$name.'" id="'.$key.'"  alt="'.$alt.'" style="height:100px; float:left; margin: 20 " onclick="showImg('.$key.')">
+  				<div id="none-copy-np">
+  					<img src="customers/'.$name.'" id="'.$key.'"  alt="'.$alt.'" onclick="showImg('.$key.')">
   				</div>
   				';
  }

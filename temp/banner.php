@@ -1,7 +1,7 @@
 <?php
 function banner(){
 	echo'
-	<div class="banner">
+	<div class="banner" id="none-copy-np">
 		<div class="banner-items">
 			<div class="banner-img">
 				<img src="/img/banner.jpg" style="">

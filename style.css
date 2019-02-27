@@ -11,7 +11,7 @@
     background-image: url(/img/mb2.jpg);
     
     width:420px;
-    height: 330px;
+    height: 364px;
     padding:10px 20px 20px 20px;
     border-radius: 10px;
 }
@@ -80,6 +80,7 @@
                 text-shadow: none;
                 border: 0px solid #705062;
                 border-radius: 10px;
+                margin: 10 0;
             }
     #popup_close {
         display:block;

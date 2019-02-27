@@ -39,10 +39,10 @@ function recaptchaCallback() {
 		<div class="top-menu">
 			<div class ="buttons" >
 				<div class= "menu-button">
-          <div class="logo" style="float:left;" id="none-copy ">
+          <div class="logo" style="float:left;" id="none-copy-np">
             <img src="img/menu-pic.png" width="70px"> 
           </div>
-          <div class="company-name" id="none-copy">
+          <div class="company-name" id="none-copy-np">
             <p>Компас-Деталь</p>
           </div>
 				  <div class="button-setting" id="menu" >
