@@ -47,6 +47,6 @@ function recaptchaCallback() {
 
 <?
 menu_right();
+echo "</body>";
 footer();
 ?>
-</body>

@@ -21,6 +21,7 @@ function recaptchaCallback() {
     $("#submitBtn").removeAttr("style");
 };
 </script>
+<div id="body">
 <div id="content">
     <a href="#" id="callback"><img src="./img/phone.png"></a>
 </div>
@@ -63,7 +64,6 @@ function recaptchaCallback() {
       </div>
     </div>
   </div>
-  </div>
 ';}
 //.recaptcha-checkbox-checked
 function menu2(){
@@ -74,8 +74,10 @@ function menu2(){
   <link href="css/style.css" type="text/css" rel="stylesheet">
   <link href="css/style-mobile.css" type="text/css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Marmelad" rel="stylesheet"> 
+  <script src="https://www.google.com/recaptcha/api.js?hl=ru" async defer></script>
 </head>
 <body>
+<div id="body">
 	<div class="header">
 
 		<div class="top-menu">

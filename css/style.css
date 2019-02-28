@@ -195,7 +195,7 @@ border-spacing: 0;
 }
 
 .container-left {
-    box-shadow: 7px 0 10px -5px #333;
+    box-shadow: 7px -3px 10px -5px #333;
     float: left;
     width:640px;
     padding-bottom: 20px;
@@ -367,6 +367,11 @@ border-spacing: 0;
   margin: 3 auto 0 auto;
 }
 
+#body
+{
+  min-height: calc(100vh - 92px);
+}
+
 @media (max-width: 940px)
 {
   .service-img img
@@ -456,12 +461,12 @@ border-spacing: 0;
   }
   .banner-items
   {
-    width: 100vw;
+    width: 100%;
     height:unset;
   }
   .banner-img
   {
-    width: 95vw;
+    width: 95%;
     position: unset;
   }
     .banner-words

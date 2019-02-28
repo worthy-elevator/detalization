@@ -1,7 +1,9 @@
 <?php
 function footer()
 {
-echo'<div class="footer">
+echo'
+</div>
+<div class="footer">
   <div class="footer-text">
     © Все права защищены <br> Компас-Деталь
   </div>
