@@ -20,8 +20,9 @@ echo'<style>#services
 
 banner();
 ?>
-<div class="service-button">
-  <a href="services.php" id="callback">назад епта</a>
+<div class="service-button" id="service-button">
+  <div class="arrow-service"onclick="arrow()"><img src="/img/arrow-services.png"> </div>
+  <a href="services.php"><img src="/img/text-services.png"></a>
 </div>
 <div class="container">
   <div class="container-left">
@@ -74,7 +75,19 @@ foreach($services as $key=>$name)
     ?>
   </div>
   </div>
-  <script type="text/javascript">
+  <script type="text/javascript">  
+    var i=1;
+    function arrow()
+    {
+      
+      if (i!=0) 
+      {document.getElementById("service-button").style.width = "140px";
+        i=0;
+      }else
+      {document.getElementById("service-button").style.width = "20px";
+        i=1;
+      }
+    }
   function showImg(imag) {
     var id=imag;
     if ( document.getElementById(id).style.display =="none") 

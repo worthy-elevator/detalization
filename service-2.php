@@ -20,6 +20,24 @@ echo'<style>#services
 
 banner();
 ?>
+<div class="service-button" id="service-button">
+  <div class="arrow-service"onclick="arrow()"><img src="/img/arrow-services.png"> </div>
+  <a href="services.php"><img src="/img/text-services.png"></a>
+</div>
+  <script type="text/javascript">  
+    var i=1;
+    function arrow()
+    {
+      
+      if (i!=0) 
+      {document.getElementById("service-button").style.width = "140px";
+        i=0;
+      }else
+      {document.getElementById("service-button").style.width = "20px";
+        i=1;
+      }
+    }
+    </script>
 
 <div class="container" style="width: 930px; margin: 0 auto;">
   <div class="container-left" style="float: left;width:640px;">

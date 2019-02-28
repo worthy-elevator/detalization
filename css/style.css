@@ -335,12 +335,17 @@ border-spacing: 0;
   }
   .service-button
   {
-    transform: rotate(90deg);
-    display: block;
-      text-align: center;
-    position: fixed;
-    right: 0;
-    bottom: 160;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 2s ease-in-out; /** Firefox **/
+    -o-transition: all 2s ease-in-out; /** Opera **/
+    text-align: center;
+    position: absolute;
+    display: -webkit-box;
+    overflow: hidden;
+    width: 20px;
+    right: 0px;
+    bottom: 160px;
   }
   .container-left
   {
