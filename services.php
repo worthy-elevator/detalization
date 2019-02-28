@@ -213,4 +213,5 @@ banner();
 <?
 menu_right();
 ?>
+
 </body>
