@@ -34,7 +34,7 @@ banner();
         	<input type="text" name="email" placeholder="Email"><br>
         	<textarea name="message" placeholder="Текст сообщения" rows="5"></textarea>
         	<div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6LdtvJMUAAAAAAZrYlKHXYIpbdjza7ESJvZPGW4N"></div>
-        	<input type="submit" id="submitBtn" class="button-contact" name="send"  value="Отправить">			
+        	<input type="submit" id="submitBtn" name="send"  value="Отправить">			
 			</form>
 		</div>
 

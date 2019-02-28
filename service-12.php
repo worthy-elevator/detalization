@@ -39,8 +39,8 @@ banner();
     }
     </script>
 
-<div class="container" style="width: 930px; margin: 0 auto;">
-  <div class="container-left" style="float: left;width:640px;">
+<div class="container">
+  <div class="container-left">
     <p class="service-label">Шлифовальная обработка</p>
     <div class="service-img">
       <img src="/img/12.jpg"></div>
