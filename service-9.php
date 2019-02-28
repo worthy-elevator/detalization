@@ -21,14 +21,14 @@ echo'<style>#services
 banner();
 ?>
 <div class="service-button" id="service-button">
-  <div class="arrow-service"onclick="arrow()"><img src="/img/arrow-services.png"> </div>
+  <div class="arrow-service" onclick=""><img src="/img/arrow-services.png"> </div>
   <a href="services.php"><img src="/img/text-services.png"></a>
 </div>
   <script type="text/javascript">  
     var i=1;
-    function arrow()
+   function arrow()
     {
-      
+
       if (i!=0) 
       {document.getElementById("service-button").style.width = "140px";
         i=0;
@@ -37,10 +37,11 @@ banner();
         i=1;
       }
     }
+
     </script>
 
-<div class="container" style="width: 930px; margin: 0 auto;">
-  <div class="container-left" style="float: left;width:640px;">
+<div class="container">
+  <div class="container-left">
     <p class="service-label">Шлифовальная обработка</p>
     <div class="service-img">
       <img src="/img/9.jpg"></div>

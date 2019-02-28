@@ -20,10 +20,27 @@ echo'<style>#services
 
 banner();
 ?>
+<div id="filler" onclick="arrow()"></div>
 <div class="service-button" id="service-button">
-  <div class="arrow-service"onclick="arrow()"><img src="/img/arrow-services.png"> </div>
+
+  <div class="arrow-service" onclick="arrow()"><img src="/img/arrow-services.png"> </div>
   <a href="services.php"><img src="/img/text-services.png"></a>
 </div>
+  <script type="text/javascript">  
+    var i=1;
+    function arrow()
+    {
+      if (i!=0) 
+      {document.getElementById("service-button").style.width = "140px";
+        document.getElementById("filler").style.display = "block";
+        i=0;
+      }else
+      {document.getElementById("service-button").style.width = "20px";
+        document.getElementById("filler").style.display = "none";
+        i=1;
+      }
+    }
+    </script>
 <div class="container">
   <div class="container-left">
     <p class="service-label">Шлифовальная обработка</p>
@@ -76,18 +93,6 @@ foreach($services as $key=>$name)
   </div>
   </div>
   <script type="text/javascript">  
-    var i=1;
-    function arrow()
-    {
-      
-      if (i!=0) 
-      {document.getElementById("service-button").style.width = "140px";
-        i=0;
-      }else
-      {document.getElementById("service-button").style.width = "20px";
-        i=1;
-      }
-    }
   function showImg(imag) {
     var id=imag;
     if ( document.getElementById(id).style.display =="none") 
