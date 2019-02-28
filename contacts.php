@@ -16,6 +16,9 @@ echo'<style>#contacts
   border-radius: 15px;
   background-image: url(/img/button-back.jpg);
 }
+#content{
+  display:none;
+}
 </style>';
 
 banner();
@@ -23,15 +26,15 @@ banner();
 
 <div class="container">
 	<div class="container-left">
-		<div >
+		<div class="contact-form">
 			<form method="post" action="./php/order-c.php">
-		        <h3 style = "font-size : 18px; text-align : center;">Укажите свои данные! </h3>
-    	    <input type="text" name="name"  placeholder="Как к вам обращаться?">
-        	<input type="text" name="tel"  class="required" placeholder="Контакный телефон (обязательно)">
-        	<input type="text" name="email" placeholder="Email">
+		        <h3>Укажите свои данные! </h3>
+    	    <input type="text" name="name"  placeholder="Как к вам обращаться?"><br>
+        	<input type="text" name="tel"  class="required" placeholder="Контакный телефон (обязательно)"><br>
+        	<input type="text" name="email" placeholder="Email"><br>
         	<textarea name="message" placeholder="Текст сообщения" rows="5"></textarea>
         	<div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6LdtvJMUAAAAAAZrYlKHXYIpbdjza7ESJvZPGW4N"></div>
-        	<input type="submit" id="submitBtn" name="send" style="display: none;" value="Отправить">			
+        	<input type="submit" id="submitBtn" class="button-contact" name="send"  value="Отправить">			
 			</form>
 		</div>
 
@@ -44,5 +47,6 @@ function recaptchaCallback() {
 
 <?
 menu_right();
+footer();
 ?>
 </body>

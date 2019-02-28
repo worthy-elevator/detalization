@@ -105,6 +105,7 @@ foreach($services as $key=>$name)
 
 <?
 menu_right();
+footer();
 ?>
 
 </body>

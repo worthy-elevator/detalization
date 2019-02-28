@@ -61,5 +61,6 @@ foreach($customers as $key=>$name)
 	</div>
 <?
 menu_right();
+footer();
 ?>
 </body>

@@ -212,6 +212,7 @@ banner();
 		</div>
 <?
 menu_right();
+footer();
 ?>
 
 </body>

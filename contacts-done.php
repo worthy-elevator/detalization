@@ -38,5 +38,6 @@ echo $str;
 
 <?
 menu_right();
+footer();
 ?>
 </body>

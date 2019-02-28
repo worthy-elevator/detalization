@@ -28,8 +28,7 @@ banner();
 
 <?
 menu_right();
+footer();
 ?>
-<div class="footer">
-  лол кек бальбек. написано кривыми руками, но с душой
-</div>
+
 </body>
