@@ -207,6 +207,13 @@ border-spacing: 0;
   text-align: center; 
   padding: 30 0 20 0;
 }
+.services-label
+{
+  font-size: 30px; 
+  text-align: center; 
+ 
+}
+
 
 .service-img
 {
@@ -232,7 +239,10 @@ border-spacing: 0;
   font-size: 20px; 
   padding: 0 20; 
   text-align: justify; 
-  font-family: 'Marmelad', sans-serif;
+  border-top: 1px dashed #666;
+  border-bottom: 1px dashed #666; 
+  box-shadow: 0 10px 6px -6px #d6d5d5;
+  padding: 10px;
 }
 
 .customers-img
@@ -294,7 +304,7 @@ border-spacing: 0;
   width: 100%; 
   text-align: center; 
   color: white;
-  padding:30px 0;
+  padding:20px 0;
   background-image: url(/img/footer.jpg);
 }
 
