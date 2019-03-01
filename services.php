@@ -27,7 +27,7 @@ banner();
 				Мы выполняем широкий спектр работ:
 			</div>
 			<div class="service" style="margin: 30 20 0 20">
-				<div class="services-label" style="font-size: 30px">
+				<div class="services-label">
 					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
 					<a href="service-1.php" id="none-copy">Токарная обработка</a>
 				</div>
