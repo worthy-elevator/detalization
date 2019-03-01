@@ -388,6 +388,7 @@ border-spacing: 0;
 
 .index-label
 {
+  font-family: 'Open Sans', sans-serif;
   font-size: 30px; 
   text-indent: 30px;
   margin: 10 0;
@@ -395,6 +396,7 @@ border-spacing: 0;
 
 .index-desc
 {
+  font-family: 'Open Sans', sans-serif;
   font-size: 17px; 
   text-indent: 30px; 
   text-align: justify;
