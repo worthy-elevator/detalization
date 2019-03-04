@@ -58,8 +58,8 @@ function recaptchaCallback() {
   				  </ul>
 				  </div>
           <div class="contacts">
-            <a href="tel:+7(978)1111111">тел. +7(978)1111111</a><br>
-            <a href="mailto:vashapochta@gmail.com">email: vashapochta@gmai.com</a>
+            <a href="tel:+7(978)7972910">тел. +7(978)7972910</a><br>
+            <a href="mailto:salercompany@yandex.ru ">email: salercompany@yandex.ru </a>
           </div>			
 		    </div>
       </div>
