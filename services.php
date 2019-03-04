@@ -28,7 +28,7 @@ banner();
 			</div>
 			<div class="service" style="margin: 30 20 0 20">
 				<div class="services-label">
-					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
+					<img src="img/checkbox.png" alt="checklist Компас" alt="checklist Компас" style="height: 25px; margin-right: 15px;">
 					<a href="service-1.php" id="none-copy">Токарная обработка</a>
 				</div>
 				<div class="description" style="text-indent: 30px; text-align: justify;">
@@ -43,7 +43,7 @@ banner();
 			</div>
 			<div class="service" style="margin: 30 20 0 20">
 				<div class="services-label" style="font-size: 30px">
-					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
+					<img src="img/checkbox.png" alt="checklist Компас" style="height: 25px; margin-right: 15px;">
 					<a href="service-2.php" id="none-copy">Фрезеровочная обработка
 				</div>
 				<div class="description" style="text-indent: 30px; text-align: justify;">
@@ -57,7 +57,7 @@ banner();
 			</div>
 			<div class="service" style="margin: 30 20 0 20">
 				<div class="services-label" style="font-size: 30px">
-					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
+					<img src="img/checkbox.png" alt="checklist Компас" style="height: 25px; margin-right: 15px;">
 					<a href="service-3.php" id="none-copy">Шлифовальная обработка
 				</div>
 				<div class="description" style="text-indent: 30px; text-align: justify;">
@@ -71,7 +71,7 @@ banner();
 			</div>
 			<div class="service" style="margin: 30 20 0 20">
 				<div class="services-label" style="font-size: 30px">
-					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
+					<img src="img/checkbox.png" alt="checklist Компас" style="height: 25px; margin-right: 15px;">
 					<a href="service-4.php" id="none-copy"> Долбежная обработка
 				</div>
 				<div class="description" style="text-indent: 30px; text-align: justify;">
@@ -85,7 +85,7 @@ banner();
 			</div>
 			<div class="service" style="margin: 30 20 0 20">
 				<div class="services-label" style="font-size: 30px">
-					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
+					<img src="img/checkbox.png" alt="checklist Компас" style="height: 25px; margin-right: 15px;">
 					 <a href="service-6.php" id="none-copy">Сварочные работы
 				</div>
 				<div class="description" style="text-indent: 30px; text-align: justify;">
@@ -99,7 +99,7 @@ banner();
 			</div>
 			<div class="service" style="margin: 30 20 0 20">
 				<div class="services-label" style="font-size: 30px">
-					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
+					<img src="img/checkbox.png" alt="checklist Компас" style="height: 25px; margin-right: 15px;">
 					<a href="service-7.php" id="none-copy">Порошковая окраска
 				</div>
 				<div class="description" style="text-indent: 30px; text-align: justify;">
@@ -113,7 +113,7 @@ banner();
 			</div>
 			<div class="service" style="margin: 30 20 0 20">
 				<div class="services-label" style="font-size: 30px">
-					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
+					<img src="img/checkbox.png" alt="checklist Компас" style="height: 25px; margin-right: 15px;">
 					<a href="service-8.php" id="none-copy">Плазменная резка
 				</div>
 				<div class="description" style="text-indent: 30px; text-align: justify;">
@@ -127,7 +127,7 @@ banner();
 			</div>
 			<div class="service" style="margin: 30 20 0 20">
 				<div class="services-label" style="font-size: 30px">
-					<img src="img/checkbox.png" style="height: 25px; margin-right: 15px;">
+					<img src="img/checkbox.png" alt="checklist Компас" style="height: 25px; margin-right: 15px;">
 					<a href="service-9.php" id="none-copy">Лазерная резка
 				</div>
 				<div class="description" style="text-indent: 30px; text-align: justify;">

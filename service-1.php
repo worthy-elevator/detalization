@@ -23,8 +23,8 @@ banner();
 <div id="filler" onclick="arrow()"></div>
 <div class="service-button" id="service-button">
 
-  <div class="arrow-service" onclick="arrow()"><img src="/img/arrow-services.png"> </div>
-  <a href="services.php"><img src="/img/text-services.png"></a>
+  <div class="arrow-service" onclick="arrow()"><img src="/img/arrow-services.png" alt="Кнопка возврата к услугам"> </div>
+  <a href="services.php"><img src="/img/text-services.png" alt="Кнопка возврата к услугам"></a>
 </div>
   <script type="text/javascript">  
     var i=1;
@@ -45,7 +45,7 @@ banner();
   <div class="container-left">
     <p class="service-label">Токарная обработка</p>
     <div class="service-img">
-      <img src="/img/1.jpg"></div>
+      <img src="/img/1.jpg" alt="Токарная обработка"></div>
     <p class="service-text">Токарная обработка – это механическая обработка специальными режущими 
 инструментами поверхности тела вращения: цилиндрических, конических. Разновидность 
 токарных работ: отрезание, снятие фасок, нарезание резьбы. Токарная обработка – одна из самых 

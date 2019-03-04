@@ -21,8 +21,8 @@ echo'<style>#services
 banner();
 ?>
 <div class="service-button" id="service-button">
-  <div class="arrow-service"onclick="arrow()"><img src="/img/arrow-services.png"> </div>
-  <a href="services.php"><img src="/img/text-services.png"></a>
+  <div class="arrow-service"onclick="arrow()"><img src="/img/arrow-services.png" alt="Кнопка возврата к услугам"> </div>
+  <a href="services.php"><img src="/img/text-services.png" alt="Кнопка возврата к услугам"></a>
 </div>
   <script type="text/javascript">  
     var i=1;
@@ -43,7 +43,7 @@ banner();
   <div class="container-left">
     <p class="service-label">Порошковая окраска</p>
     <div class="service-img">
-      <img src="/img/7.jpg"></div>
+      <img src="/img/7.jpg" alt="Порошковая окраска"></div>
     <p class="service-text">Порошковая окраска – это метод получения покрытий с высокими декоративными и защитными свойствами. Порошковая окраска является хорошей альтернативой лакокрасочным материалам.<br></p>
     <p class="fnk-crm">Наша команда работает в городе Симферополе. Так же возможна доставка по Крыму.</p>
     <div class="services-img" style="<?include ('./services/7/fuckinoff.php');?>margin: 50 0">

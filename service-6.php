@@ -21,8 +21,8 @@ echo'<style>#services
 banner();
 ?>
 <div class="service-button" id="service-button">
-  <div class="arrow-service"onclick="arrow()"><img src="/img/arrow-services.png"> </div>
-  <a href="services.php"><img src="/img/text-services.png"></a>
+  <div class="arrow-service"onclick="arrow()"><img src="/img/arrow-services.png" alt="Кнопка возврата к услугам"> </div>
+  <a href="services.php"><img src="/img/text-services.png" alt="Кнопка возврата к услугам"></a>
 </div>
   <script type="text/javascript">  
     var i=1;
@@ -43,7 +43,7 @@ banner();
   <div class="container-left">
     <p class="service-label">Cварочные работы</p>
     <div class="service-img">
-      <img src="/img/6.jpg"></div>
+      <img src="/img/6.jpg" alt="Сварочные работы"></div>
     <p class="service-text">Сварочные работы – это процесс получения соединения посредствам установления межатомных связей между свариваемыми металлическими деталями. Мы осуществляем сварочных работ с помощью ручной сварки электродами и сварка полуавтоматами.<br></p>
     <p class="fnk-crm">Наша команда работает в городе Симферополе. Так же возможна доставка по Крыму.</p>
     <div class="services-img" style="<?include ('./services/6/fuckinoff.php');?>margin: 50 0">

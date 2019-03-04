@@ -36,6 +36,9 @@ $folder = "customers/";
       $customers[$dat] = $filename;
     }
   }
+    if (!is_array($customers))
+  {}else
+{
   ksort($customers);
 foreach($customers as $key=>$name)
 {
@@ -54,7 +57,7 @@ foreach($customers as $key=>$name)
   				</div>
   				';
  }
-
+}
 
 		?>
 	</div>

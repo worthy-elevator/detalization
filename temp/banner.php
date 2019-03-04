@@ -4,7 +4,7 @@ function banner(){
 	<div class="banner" id="none-copy-np">
 		<div class="banner-items">
 			<div class="banner-img">
-				<img src="/img/banner.jpg" style="">
+				<img src="/img/banner.jpg" alt="Компас-Деталь Симферополь" style="">
 			
 			</div>
 			<div class="banner-words">

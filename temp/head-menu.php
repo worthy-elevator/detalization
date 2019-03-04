@@ -6,7 +6,8 @@ function menu(){
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <link href="css/style.css" type="text/css" rel="stylesheet">
   <link href="css/style-pc.css" type="text/css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Marmelad" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Marmelad" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"> 
   <script src="https://www.google.com/recaptcha/api.js?hl=ru" async defer></script>
   <meta name="description" content="" />
 <meta name="keywords" content="" /> 
@@ -41,7 +42,7 @@ function recaptchaCallback() {
 			<div class ="buttons" >
 				<div class= "menu-button">
           <div class="logo" style="float:left;" id="none-copy-np">
-            <img src="img/menu-pic.png" width="70px"> 
+            <img src="img/menu-pic.png" alt="Логотип Компас-Деталь" width="70px"> 
           </div>
           <div class="company-name" id="none-copy-np">
             <p>Компас-Деталь</p>
@@ -72,7 +73,8 @@ function menu2(){
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <link href="css/style.css" type="text/css" rel="stylesheet">
-  <link href="css/style-mobile.css" type="text/css" rel="stylesheet">
+  <link href="css/style-mobile.css" type="text/css" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Marmelad" rel="stylesheet"> 
   <script src="https://www.google.com/recaptcha/api.js?hl=ru" async defer></script>
 </head>
@@ -85,7 +87,7 @@ function menu2(){
 				<div class= "menu-button">
 
         <div class="logo" style="float:left;" id="none-copy ">
-            <img src="img/menu-pic.png" height="70px"> 
+            <img src="img/menu-pic.png" alt="Логотип Компас-Деталь" height="70px"> 
           </div>
           <div class="company-name" id="none-copy">
             <p>Компас-Деталь</p>

@@ -21,8 +21,8 @@ echo'<style>#services
 banner();
 ?>
 <div class="service-button" id="service-button">
-  <div class="arrow-service"onclick="arrow()"><img src="/img/arrow-services.png"> </div>
-  <a href="services.php"><img src="/img/text-services.png"></a>
+  <div class="arrow-service"onclick="arrow()"><img src="/img/arrow-services.png" alt="Кнопка возврата к услугам"> </div>
+  <a href="services.php"><img src="/img/text-services.png" alt="Кнопка возврата к услугам"></a>
 </div>
   <script type="text/javascript">  
     var i=1;
@@ -43,7 +43,7 @@ banner();
   <div class="container-left">
     <p class="service-label">Фрезеровочная обработка</p>
     <div class="service-img">
-      <img src="/img/2.jpg"></div>
+      <img src="/img/2.jpg" alt="Фрезеровочная обработка"></div>
     <p class="service-text">Фрезеровочная обработка – это процесс обработки поверхности путем срезания определенного слоя с поверхности заготовки с помощью режущего инструмента (фреза, сверло).<br></p>
     <p  class="fnk-crm">Наша команда работает в городе Симферополе. Так же возможна доставка по Крыму.</p>
     <div class="services-img" style="<?include ('./services/2/fuckinoff.php');?>margin: 50 0">

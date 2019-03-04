@@ -34,35 +34,35 @@ banner();
         <p >Мы выполняем следующие виды работ:</p>
       </div>
       <a href="service-1.php" id="none-copy">
-        <img src="/img/1.jpg">
+        <img src="/img/1.jpg" alt="Токарная обработка">
         <p>Токарная обработка</p>
       </a>
       <a href="service-2.php" id="none-copy">
-        <img src="/img/2.jpg">
+        <img src="/img/2.jpg"alt="Фрезеровочная обработка">
         <p>Фрезеровочная обработка</p>
       </a>
       <a href="service-3.php" id="none-copy">
-        <img src="/img/3.jpg">
+        <img src="/img/3.jpg" alt="Шлифовальная обработка">
         <p>Шлифовальная обработка</p>
       </a>
       <a href="service-4.php" id="none-copy">
-        <img src="/img/4.jpg">
+        <img src="/img/4.jpg" alt="Долбежная обработка">
         <p>Долбежная обработка</p>
       </a>
       <a href="service-6.php" id="none-copy">
-        <img src="/img/6.jpg">
+        <img src="/img/6.jpg" alt="Сварочные работы">
         <p>Сварочные работы</p>
       </a>
       <a href="service-7.php" id="none-copy">
-        <img src="/img/7.jpg">
+        <img src="/img/7.jpg" alt="Порошковая окраска">
         <p>Порошковая окраска</p>
       </a>
       <a href="service-8.php" id="none-copy">
-        <img src="/img/8.jpg">
+        <img src="/img/8.jpg" alt="Плазменная резка">
         <p>Плазменная резка</p>
       </a>
       <a href="service-9.php" id="none-copy">
-        <img src="/img/9.jpg">
+        <img src="/img/9.jpg" alt="Лазерная резка ">
         <p>Лазерная резка</p>
       </a>
        

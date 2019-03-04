@@ -21,8 +21,8 @@ echo'<style>#services
 banner();
 ?>
 <div class="service-button" id="service-button">
-  <div class="arrow-service" onclick=""><img src="/img/arrow-services.png"> </div>
-  <a href="services.php"><img src="/img/text-services.png"></a>
+  <div class="arrow-service" onclick=""><img src="/img/arrow-services.png" alt="Кнопка возврата к услугам"> </div>
+  <a href="services.php"><img src="/img/text-services.png" alt="Кнопка возврата к услугам"></a>
 </div>
   <script type="text/javascript">  
     var i=1;
@@ -44,7 +44,7 @@ banner();
   <div class="container-left">
     <p class="service-label">Лазерная резка</p>
     <div class="service-img">
-      <img src="/img/9.jpg"></div>
+      <img src="/img/9.jpg" alt="Лазерная резка"></div>
     <p class="service-text">Лазерная резка – это технология резки металла с помощью лазера высокой мощности. Лазер обеспечивает высокую концентрацию энергии и разрезает практически любой материал, но при этом отсутствует механическое воздействие на заготовку, что позволяет обрабатывать легкодеформируемые и нежесткие детали в сочетании с высоким качеством поверхности реза.<br></p>
     <p style = "border-top: 1px dashed #666; border-bottom: 1px dashed #666; box-shadow: 0 10px 6px -6px #d6d5d5; padding: 10px" class="fnk-crm">Наша команда работает в городе Симферополе. Так же возможна доставка по Крыму.</p>
     <div class="services-img" style="<?include ('./services/9/fuckinoff.php');?>margin: 50 0">
