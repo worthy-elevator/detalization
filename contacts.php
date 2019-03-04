@@ -20,7 +20,7 @@ echo'<style>#contacts
   display:none;
 }
 </style>';
-
+ 
 banner();
 ?>
 

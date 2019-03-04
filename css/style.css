@@ -343,6 +343,7 @@ border-spacing: 0;
   color: white; 
   padding-bottom: 6px; 
   padding-top: 10px; 
+  font-weight: normal;
 }
 
 #submitBtn
