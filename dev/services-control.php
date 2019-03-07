@@ -24,7 +24,13 @@ if($_POST['submit']=='on')
 }elseif ($_POST['submit']=='off') 
 {
 	$data="<?php echo 'display:none;';?>";
-	file_put_contents($file, $data);
+	
+}
+
+if (!empty($_POST['desc'])) {
+	$file='../services/'.$service.'/desc.php';
+	$data=$_POST['desc'];
+    file_put_contents($file, $data);
 }
 
 if (empty($_FILES['uploadfile'])) {
@@ -51,7 +57,7 @@ $folder.='/';
   $dircontent = scandir($folder);
   $arr = array();
   foreach($dircontent as $filename) {
-    if ($filename != '.' && $filename != '..' && $filename!='fuckinoff.php') {
+    if ($filename != '.' && $filename != '..' && $filename!='fuckinoff.php'&& $filename!='desc.php') {
       if (filemtime($folder.$filename) === false) return false;
       $dat = filemtime($folder.$filename);
       $services[$dat] = $filename;
@@ -101,6 +107,13 @@ $folder.='/';
 			<input type="submit" name="submit" value="off"/>
 		</form>
 	</div>
+	<br>
+	<br>
+	<p>Изменение описания</p>
+	<form action=# method=post >
+		<textarea name="desc" style="width: 60%; height:7em;" placeholder="" rows="5"><? include'../services/'.$service.'/desc.php';?></textarea>
+		<input type="submit" value="Изменить">
+	</form>
 	<br>
 	<p>Добавение логотипов заказчиков<br>(Важно! название должно описывать изображение т.е. то, что изображено на картинке. К примеру, если компания называется "ООО "Salercompany", то картинка должна называться "логотип компании по производству перерабатывающего оборудования Salercompany.jpg". Где .jpg формат файла)</p>
 	<div class="add-customers">

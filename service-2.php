@@ -44,7 +44,7 @@ banner();
     <p class="service-label">Фрезеровочная обработка</p>
     <div class="service-img">
       <img src="/img/2.jpg" alt="Фрезеровочная обработка"></div>
-    <p class="service-text">Фрезеровочная обработка – это процесс обработки поверхности путем срезания определенного слоя с поверхности заготовки с помощью режущего инструмента (фреза, сверло).<br></p>
+    <p class="service-text"><? include'services/2/desc.php';?><br></p>
     <p  class="fnk-crm">Наша команда работает в городе Симферополе. Так же возможна доставка по Крыму.</p>
     <div class="services-img" style="<?include ('./services/2/fuckinoff.php');?>margin: 50 0">
     <?
@@ -52,7 +52,7 @@ $folder = "services/2/";
   $dircontent = scandir($folder);
   $arr = array();
   foreach($dircontent as $filename) {
-    if ($filename != '.' && $filename != '..' && $filename!='fuckinoff.php') {
+    if ($filename != '.' && $filename != '..' && $filename!='fuckinoff.php'&& $filename!='desc.php') {
       if (filemtime($folder.$filename) === false) return false;
       $dat = filemtime($folder.$filename);
       $services[$dat] = $filename;

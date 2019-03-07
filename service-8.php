@@ -44,7 +44,7 @@ banner();
     <p class="service-label">Плазменная резка</p>
     <div class="service-img">
       <img src="/img/8.jpg" alt="Плазменная резка"></div>
-    <p class="service-text">Плазменная резка – это вид обработки металла, при котором режущим инструментом является струя плазмы. Рабочая температура плазмы составляет от 5000 до 30000 градусов, максимальная толщина разрезаемого металла может доходить до 200 мм.<br></p>
+    <p class="service-text"><? include'services/8/desc.php';?><br></p>
     <p class="fnk-crm">Наша команда работает в городе Симферополе. Так же возможна доставка по Крыму.</p>
     <div class="services-img" style="<?include ('./services/8/fuckinoff.php');?>margin: 50 0">
     <?
@@ -52,7 +52,7 @@ $folder = "services/8/";
   $dircontent = scandir($folder);
   $arr = array();
   foreach($dircontent as $filename) {
-    if ($filename != '.' && $filename != '..' && $filename!='fuckinoff.php') {
+    if ($filename != '.' && $filename != '..' && $filename!='fuckinoff.php'&& $filename!='desc.php') {
       if (filemtime($folder.$filename) === false) return false;
       $dat = filemtime($folder.$filename);
       $services[$dat] = $filename;

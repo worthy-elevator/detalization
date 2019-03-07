@@ -44,7 +44,7 @@ banner();
     <p class="service-label">Долбежная обработка</p>
     <div class="service-img">
       <img src="/img/4.jpg" alt="Долбежная обработка"></div>
-    <p class="service-text">Долбежная обработка – это механическая обработка заготовки, где режущий инструмент совершает возвратно-поступательные движения. Долбежная обработка очень похожа на строгание.<br></p>
+    <p class="service-text"><? include'services/4/desc.php';?><br></p>
     <p  class="fnk-crm">Наша команда работает в городе Симферополе. Так же возможна доставка по Крыму.</p>
     <div class="services-img" style="<?include ('./services/4/fuckinoff.php');?>margin: 50 0">
     <?
@@ -52,7 +52,7 @@ $folder = "services/4/";
   $dircontent = scandir($folder);
   $arr = array();
   foreach($dircontent as $filename) {
-    if ($filename != '.' && $filename != '..' && $filename!='fuckinoff.php') {
+    if ($filename != '.' && $filename != '..' && $filename!='fuckinoff.php'&& $filename!='desc.php') {
       if (filemtime($folder.$filename) === false) return false;
       $dat = filemtime($folder.$filename);
       $services[$dat] = $filename;

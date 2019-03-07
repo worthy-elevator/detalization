@@ -45,7 +45,7 @@ banner();
     <p class="service-label">Лазерная резка</p>
     <div class="service-img">
       <img src="/img/9.jpg" alt="Лазерная резка"></div>
-    <p class="service-text">Лазерная резка – это технология резки металла с помощью лазера высокой мощности. Лазер обеспечивает высокую концентрацию энергии и разрезает практически любой материал, но при этом отсутствует механическое воздействие на заготовку, что позволяет обрабатывать легкодеформируемые и нежесткие детали в сочетании с высоким качеством поверхности реза.<br></p>
+    <p class="service-text"><? include'services/9/desc.php';?><br></p>
     <p style = "border-top: 1px dashed #666; border-bottom: 1px dashed #666; box-shadow: 0 10px 6px -6px #d6d5d5; padding: 10px" class="fnk-crm">Наша команда работает в городе Симферополе. Так же возможна доставка по Крыму.</p>
     <div class="services-img" style="<?include ('./services/9/fuckinoff.php');?>margin: 50 0">
     <?
@@ -53,7 +53,7 @@ $folder = "services/9/";
   $dircontent = scandir($folder);
   $arr = array();
   foreach($dircontent as $filename) {
-    if ($filename != '.' && $filename != '..' && $filename!='fuckinoff.php') {
+    if ($filename != '.' && $filename != '..' && $filename!='fuckinoff.php'&& $filename!='desc.php') {
       if (filemtime($folder.$filename) === false) return false;
       $dat = filemtime($folder.$filename);
       $services[$dat] = $filename;

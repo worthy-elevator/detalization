@@ -44,7 +44,7 @@ banner();
     <p class="service-label">Cварочные работы</p>
     <div class="service-img">
       <img src="/img/6.jpg" alt="Сварочные работы"></div>
-    <p class="service-text">Сварочные работы – это процесс получения соединения посредствам установления межатомных связей между свариваемыми металлическими деталями. Мы осуществляем сварочных работ с помощью ручной сварки электродами и сварка полуавтоматами.<br></p>
+    <p class="service-text"><? include'services/6/desc.php';?><br></p>
     <p class="fnk-crm">Наша команда работает в городе Симферополе. Так же возможна доставка по Крыму.</p>
     <div class="services-img" style="<?include ('./services/6/fuckinoff.php');?>margin: 50 0">
     <?
@@ -52,7 +52,7 @@ $folder = "services/6/";
   $dircontent = scandir($folder);
   $arr = array();
   foreach($dircontent as $filename) {
-    if ($filename != '.' && $filename != '..' && $filename!='fuckinoff.php') {
+    if ($filename != '.' && $filename != '..' && $filename!='fuckinoff.php'&& $filename!='desc.php') {
       if (filemtime($folder.$filename) === false) return false;
       $dat = filemtime($folder.$filename);
       $services[$dat] = $filename;

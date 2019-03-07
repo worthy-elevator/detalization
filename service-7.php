@@ -44,7 +44,7 @@ banner();
     <p class="service-label">Порошковая окраска</p>
     <div class="service-img">
       <img src="/img/7.jpg" alt="Порошковая окраска"></div>
-    <p class="service-text">Порошковая окраска – это метод получения покрытий с высокими декоративными и защитными свойствами. Порошковая окраска является хорошей альтернативой лакокрасочным материалам.<br></p>
+    <p class="service-text"><? include'services/7/desc.php';?><br></p>
     <p class="fnk-crm">Наша команда работает в городе Симферополе. Так же возможна доставка по Крыму.</p>
     <div class="services-img" style="<?include ('./services/7/fuckinoff.php');?>margin: 50 0">
     <?
@@ -52,7 +52,7 @@ $folder = "services/7/";
   $dircontent = scandir($folder);
   $arr = array();
   foreach($dircontent as $filename) {
-    if ($filename != '.' && $filename != '..' && $filename!='fuckinoff.php') {
+    if ($filename != '.' && $filename != '..' && $filename!='fuckinoff.php'&& $filename!='desc.php') {
       if (filemtime($folder.$filename) === false) return false;
       $dat = filemtime($folder.$filename);
       $services[$dat] = $filename;

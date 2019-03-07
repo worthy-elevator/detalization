@@ -46,10 +46,7 @@ banner();
     <p class="service-label">Токарная обработка</p>
     <div class="service-img">
       <img src="/img/1.jpg" alt="Токарная обработка"></div>
-    <p class="service-text">Токарная обработка – это механическая обработка специальными режущими 
-инструментами поверхности тела вращения: цилиндрических, конических. Разновидность 
-токарных работ: отрезание, снятие фасок, нарезание резьбы. Токарная обработка – одна из самых 
-древних технических операций, которая была механизирована. Специалисты компании Компас-Деталь выполняют работы на новейшем токарном оборудовании, благодаря нашему опыту и технической базе вы получаете продукт наивысшего качества!<br></p>
+    <p class="service-text"><? include'services/1/desc.php';?><br></p>
     <p  class="fnk-crm">Наша команда работает в городе Симферополе. Так же возможна доставка по Крыму.</p>
     <div class="services-img" style="<?include ("./services/1/fuckinoff.php");?>">
       
@@ -58,7 +55,7 @@ $folder = "services/1/";
   $dircontent = scandir($folder);
   $arr = array();
   foreach($dircontent as $filename) {
-    if ($filename != '.' && $filename != '..' && $filename!='fuckinoff.php') {
+    if ($filename != '.' && $filename != '..' && $filename!='fuckinoff.php'&& $filename!='desc.php') {
       if (filemtime($folder.$filename) === false) return false;
       $dat = filemtime($folder.$filename);
       $services[$dat] = $filename;
