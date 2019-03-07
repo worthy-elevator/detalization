@@ -9,7 +9,7 @@ if(!$_SESSION['admin']){
  header("Location: log.php");
  exit;
 }
-$file='fuckinoff.php';
+$file='fuckinoff_best.php';
 if($_POST['submit']=='on')
 {
 	$data="<?php ?>";
@@ -28,17 +28,17 @@ if (empty($_FILES['uploadfile'])) {
 	$name= str_replace(" ","~",$name);
 	$name=iconv('UTF-8','Windows-1251', $name);
 	
-	copy($_FILES['uploadfile']['tmp_name'],"../customers/".basename($name));
+	copy($_FILES['uploadfile']['tmp_name'],"../best-works/".basename($name));
 }
 
 if (empty($_POST['delete'])) {
 }else{
-	$name="../customers/".$_POST['delete'];
+	$name="../best-works/".$_POST['delete'];
 	if(file_exists($name))
 	unlink($name);
 }
 
-$folder = "../customers/";
+$folder = "../best-works/";
   $dircontent = scandir($folder);
   $arr = array();
   foreach($dircontent as $filename) {
@@ -59,14 +59,14 @@ $folder = "../customers/";
 <body>
 	<a href="../index.php">Вернуться на сайт</a>
 	<a href="admin.php?do=logout">Выход из учетной записи</a>
+	<a href="admin.php">Главная</a>
 	<a href="services-control.php?page=1">Управление В услугах</a>
-	<a href="best-control.php">Управление списком лучших работ</a>
 	<br>
 	<?
 	echo '<br>'.$_POST['submit'].'<br>';
 ?>
 	<br>
-	<p>Включение/выключение страницы "Наши заказчики"</p>
+	<p>Включение/выключение блока "Лучшие работы"</p>
 	<div class="on-customers">
 		<form method="post">
 			<input type="submit" name="submit" value="on"/>
@@ -78,16 +78,16 @@ $folder = "../customers/";
 		</form>
 	</div>
 	<br>
-	<p>Добавение логотипов заказчиков<br>(Важно! название должно описывать изображение т.е. то, что изображено на картинке. К примеру, если компания называется "ООО "Salercompany", то картинка должна называться "логотип компании по производству перерабатывающего оборудования Salercompany.jpg". Где .jpg формат файла)</p>
+	<p>Добавение лучших работ<br>(Важно! название должно описывать изображение т.е. то, что изображено на картинке. К примеру, если компания называется "ООО "Salercompany", то картинка должна называться "логотип компании по производству перерабатывающего оборудования Salercompany.jpg". Где .jpg формат файла)</p>
 	<div class="add-customers">
-		<form action=admin.php method=post enctype=multipart/form-data>
+		<form action=best-control.php method=post enctype=multipart/form-data>
 			<input type=file name=uploadfile>
 			<input type=submit value=Загрузить>
 		</form>
 	</div>
 
 	<br>
-	<p>управление списком логотипов заказчиков</p>
+	<p>управление списком лучших работ</p>
 	<div class="customers-list">
 		<table>
   			<? 

@@ -31,6 +31,7 @@ if (empty($_FILES['uploadfile'])) {
     $errorMSG = "не выбрали кортинку";
 } else {
 	$name=$_FILES['uploadfile']['name'];
+	$name=iconv('Windows-1251', 'UTF-8', $name);
 	$name= str_replace(" ","~",$name);
 	$name=iconv('UTF-8','Windows-1251', $name);
 	
@@ -53,7 +54,6 @@ $folder.='/';
     if ($filename != '.' && $filename != '..' && $filename!='fuckinoff.php') {
       if (filemtime($folder.$filename) === false) return false;
       $dat = filemtime($folder.$filename);
-      $filename=iconv('Windows-1251', 'UTF-8', $filename);
       $services[$dat] = $filename;
     }
   }
@@ -66,6 +66,7 @@ $folder.='/';
 	<a href="../index.php">Вернуться на сайт</a>|
 	<a href="admin.php">Главная</a>|
 	<a href="admin.php?do=logout">Выход из учетной записи</a>
+	<a href="best-control.php">Управление списком лучших работ</a>
 	<br>
 	<br>
 	<a href="services-control.php?page=1">услуга 1</a>|

@@ -23,7 +23,11 @@ echo'<style>#contacts
  
 banner();
 ?>
-
+<script type="text/javascript">
+function recaptchaCallbackk() {
+    $("#submitBtnn").removeAttr("style");
+};
+</script>
 <div class="container">
 	<div class="container-left">
 		<div class="contact-form">
@@ -33,8 +37,8 @@ banner();
         	<input type="text" name="tel"  class="required" placeholder="Контакный телефон (обязательно)"><br>
         	<input type="text" name="email" placeholder="Email"><br>
         	<textarea name="message" placeholder="Текст сообщения" rows="5"></textarea>
-        	<div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6LdtvJMUAAAAAAZrYlKHXYIpbdjza7ESJvZPGW4N"></div>
-        	<input type="submit" id="submitBtn" name="send"  value="Отправить">			
+        	<div class="g-recaptcha" data-callback="recaptchaCallbackk" data-sitekey="6LcOWpUUAAAAAHts2gPSRjzWsPujCrLrimZ59MA0"></div>
+        	<input type="submit" id="submitBtnn" name="send" style="display:none;" value="Отправить">			
 			</form>
 		</div>
 

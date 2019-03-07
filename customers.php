@@ -32,7 +32,6 @@ $folder = "customers/";
     if ($filename != '.' && $filename != '..') {
       if (filemtime($folder.$filename) === false) return false;
       $dat = filemtime($folder.$filename);
-      $filename=iconv('Windows-1251', 'UTF-8', $filename);
       $customers[$dat] = $filename;
     }
   }

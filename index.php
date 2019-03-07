@@ -71,7 +71,7 @@ banner();
     </div>
 
     <div class="best-works">
-<?/*
+<?
 $folder = "best-works/";
   $dircontent = scandir($folder);
   $arr = array();
@@ -79,13 +79,12 @@ $folder = "best-works/";
     if ($filename != '.' && $filename != '..' && $filename!='fuckinoff.php') {
       if (filemtime($folder.$filename) === false) return false;
       $dat = filemtime($folder.$filename);
-      $filename=iconv('Windows-1251', 'UTF-8', $filename);
       $services[$dat] = $filename;
     }
   }
   if (!is_array($services))
   {}else
-{
+{echo '<p class="works-text">Лучшие работы</p>';
           ksort($services);
 foreach($services as $key=>$name)
 {
@@ -96,17 +95,16 @@ foreach($services as $key=>$name)
           <style>
           input+label #'.$key.'
           {
-            background-image: url(/services/1/'.$key.');
+            background-image: url(/best-works/'.$key.');
           }
           </style>
 <div class="pics" style="margin:10 15 10 5">
-      <div class="image"><input id="'.$key.'1" type="checkbox"><label for="'.$key.'1" onclick="showImg('.$key.')" style="background-image: url(/services/1/'.$name.');"><img class="fullimg"  src="/services/1/'.$name.'" alt="'.$alt.'" id="'.$key.'" style="height:120px;"></label></div>
+      <div class="image"><input id="'.$key.'1" type="checkbox"><label for="'.$key.'1" onclick="showImg('.$key.')" style="background-image: url(/best-works/'.$name.');"><img class="fullimg"  src="/best-works/'.$name.'" alt="'.$alt.'" id="'.$key.'" style="height:120px;"></label></div>
     </div>
           ';
  }
 }
 
-*/
     ?>
     </div>
 

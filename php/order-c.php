@@ -19,7 +19,7 @@
 
 		    $theme = "Заявка №".$Nzakaz;
 
-			mail("testpost-detalization@yandex.ru", $theme, $mess);
+			mail("salercompany@yandex.ru", $theme, $mess);
 			header("Location: ../contacts-done.php?N=".$Nzakaz."");			
 
 

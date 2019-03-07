@@ -52,7 +52,7 @@ banner();
 древних технических операций, которая была механизирована. Специалисты компании Компас-Деталь выполняют работы на новейшем токарном оборудовании, благодаря нашему опыту и технической базе вы получаете продукт наивысшего качества!<br></p>
     <p  class="fnk-crm">Наша команда работает в городе Симферополе. Так же возможна доставка по Крыму.</p>
     <div class="services-img" style="<?include ("./services/1/fuckinoff.php");?>">
-      <p class="works-text">Наши работы</p>
+      
     <?
 $folder = "services/1/";
   $dircontent = scandir($folder);
@@ -61,13 +61,12 @@ $folder = "services/1/";
     if ($filename != '.' && $filename != '..' && $filename!='fuckinoff.php') {
       if (filemtime($folder.$filename) === false) return false;
       $dat = filemtime($folder.$filename);
-      $filename=iconv('Windows-1251', 'UTF-8', $filename);
       $services[$dat] = $filename;
     }
   }
   if (!is_array($services))
   {}else
-{
+{ echo '<p class="works-text">Наши работы</p>';
           ksort($services);
 foreach($services as $key=>$name)
 {

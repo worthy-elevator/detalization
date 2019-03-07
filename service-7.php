@@ -55,13 +55,12 @@ $folder = "services/7/";
     if ($filename != '.' && $filename != '..' && $filename!='fuckinoff.php') {
       if (filemtime($folder.$filename) === false) return false;
       $dat = filemtime($folder.$filename);
-      $filename=iconv('Windows-1251', 'UTF-8', $filename);
       $services[$dat] = $filename;
     }
   }
   if (!is_array($services))
   {}else
-{
+{echo '<p class="works-text">Наши работы</p>';
           ksort($services);
 foreach($services as $key=>$name)
 {

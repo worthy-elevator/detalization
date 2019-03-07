@@ -1,6 +1,4 @@
-// ========= (c)2015 :: html & css & jquery coding :: Polyakov - http://polyakov.co.ua  =========
 
-// =========================================================================  contact_form
 $(function() {
 	//Функция проверяет заполнено ли поле с телефоном
 	function formValide() {			

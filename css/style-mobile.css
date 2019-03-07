@@ -164,7 +164,11 @@ h1 {
 {
   display: none;
 }
-
+    .contacts
+  {
+    display: unset;
+    float: left;
+  }
 @media(max-width: 940px)
 {
     .menu-button
@@ -173,6 +177,13 @@ h1 {
   }
 }
 
+@media(max-width: 654px)
+{
+    .contacts
+  {
+    display: none;
+  }
+}
 @media(max-width: 420px)
 {
   .logo
