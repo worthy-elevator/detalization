@@ -35,7 +35,7 @@ banner();
 					Токарная обработка – это механическая обработка специальными режущими 
 инструментами поверхности тела вращения: цилиндрических, конических...
 				</div>
-				<a href="service-1.php" style="color: blue;" id="none-copy" style="margin-left: 20px;">Подробнее</a>
+				<a href="service-1.php" style="-webkit-text-fill-color: blue;" id="none-copy" style="margin-left: 20px;">Подробнее</a>
 				<div class="service-image">
 					<img src="">
 				</div>
@@ -50,7 +50,7 @@ banner();
 					Фрезеровочная обработка – это процесс обработки поверхности путем срезания определенного
 					 слоя с поверхности заготовки с помощью режущего инструмента...
 				</div>
-				<a href="service-2.php" style="color: blue;" id="none-copy">Подробнее</a>
+				<a href="service-2.php" style="-webkit-text-fill-color: blue;" id="none-copy">Подробнее</a>
 				<div class="service-image">
 					<img src="">
 				</div>
@@ -64,7 +64,7 @@ banner();
 					Шлифовальная обработка – это механическая операция по обработке материала с помощью
 					 абразивных насадок (шлифовальный круг, отрезной круг, шкурка, паста)...
 				</div>
-				<a href="service-3.php" style="color: blue;" id="none-copy">Подробнее</a>
+				<a href="service-3.php" style="-webkit-text-fill-color: blue;" id="none-copy">Подробнее</a>
 				<div class="service-image">
 					<img src="">
 				</div>
@@ -78,7 +78,7 @@ banner();
 					 Долбежная обработка – это механическая обработка заготовки, 
 					где режущий инструмент совершает возвратно-поступательные движения...
 				</div>
-				<a href="service-4.php" style="color: blue;" id="none-copy">Подробнее</a>
+				<a href="service-4.php" style="-webkit-text-fill-color: blue;" id="none-copy">Подробнее</a>
 				<div class="service-image">
 					<img src="">
 				</div>
@@ -92,7 +92,7 @@ banner();
 					 Сварочные работы – это процесс получения соединения посредствам установления межатомных 
 					 связей между свариваемыми металлическими деталями...
 				</div>
-				<a href="service-6.php" style="color: blue;" id="none-copy">Подробнее</a>
+				<a href="service-6.php" style="-webkit-text-fill-color: blue;" id="none-copy">Подробнее</a>
 				<div class="service-image">
 					<img src="">
 				</div>
@@ -106,7 +106,7 @@ banner();
 					Порошковая окраска – это метод получения покрытий с высокими декоративными и защитными свойствами. 
 					Порошковая окраска является хорошей альтернативой лакокрасочным материалам...
 				</div>
-				<a href="service-7.php" style="color: blue;" id="none-copy">Подробнее</a>
+				<a href="service-7.php" style="-webkit-text-fill-color: blue;" id="none-copy">Подробнее</a>
 				<div class="service-image">
 					<img src="">
 				</div>
@@ -120,7 +120,7 @@ banner();
 					Плазменная резка – это вид обработки металла, при котором режущим инструментом является струя плазмы.
 					 Рабочая температура плазмы составляет от 5000 до 30000 градусов... 
 				</div>
-				<a href="service-8.php" style="color: blue;" id="none-copy">Подробнее</a>
+				<a href="service-8.php" style="-webkit-text-fill-color: blue;" id="none-copy">Подробнее</a>
 				<div class="service-image">
 					<img src="">
 				</div>
@@ -133,7 +133,7 @@ banner();
 				<div class="description" style="text-indent: 30px; text-align: justify;">
 					Лазерная резка – это технология резки металла с помощью лазера высокой мощности. Лазер обеспечивает высокую концентрацию энергии и разрезает практически любой материал ...  
 				</div>
-				<a href="services-9.php" style="color: blue;" id="none-copy">Подробнее</a>
+				<a href="service-9.php" style="-webkit-text-fill-color: blue;" id="none-copy">Подробнее</a>
 				<div class="service-image">
 					<img src="">
 				</div>

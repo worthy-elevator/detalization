@@ -21,7 +21,7 @@ echo'<style>#services
 banner();
 ?>
 <div class="service-button" id="service-button">
-  <div class="arrow-service" onclick=""><img src="/img/arrow-services.png" alt="Кнопка возврата к услугам"> </div>
+  <div class="arrow-service" onclick="arrow()"><img src="/img/arrow-services.png" alt="Кнопка возврата к услугам"> </div>
   <a href="services.php"><img src="/img/text-services.png" alt="Кнопка возврата к услугам"></a>
 </div>
   <script type="text/javascript">  
