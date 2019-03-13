@@ -49,6 +49,16 @@ a:hover {color: white;}
   margin: 30 20;
 }
 
+#body
+{
+  min-height: calc(100vh - 115px);
+}
+
+.footer
+{
+  padding-bottom: 60px;
+}
+
 /* burger */
 .visuallyHidden {
     position: absolute; 
@@ -160,10 +170,7 @@ h1 {
     background-color: transparent; 
 }
 
-.menu-right
-{
-  display: none;
-}
+
     .contacts
   {
     display: unset;
@@ -176,6 +183,7 @@ h1 {
     width: 100%;
   }
 }
+
 
 @media(max-width: 654px)
 {

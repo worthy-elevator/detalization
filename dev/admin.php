@@ -66,7 +66,7 @@ $folder = "../customers/";
 	echo '<br>'.$_POST['submit'].'<br>';
 ?>
 	<br>
-	<p>Включение/выключение страницы "Наши заказчики"</p>
+	<p>Включение/выключение страницы "Наши партнеры"</p>
 	<div class="on-customers">
 		<form method="post">
 			<input type="submit" name="submit" value="on"/>

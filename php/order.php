@@ -22,7 +22,7 @@
 
 			mail("salercompany@yandex.ru", $theme, $mess);
 	
-			echo '<h3 style = "font-size : 18px; text-align : center;padding: 90 0 0 0; " >Спасибо, что обратились к нам!</h3>';
+			echo '<h3 id="invalid-ex" style = "font-size : 18px; text-align : center;" >Спасибо, что обратились к нам!</h3>';
 			echo '<p>Заявке присвоен номер №'.$Nzakaz.'. Если вам не перезвонили в течении 30 минут в рабочее время , пожалуйста, позвоните по номеру +79780646977 с указаного Вами телефона, сообщите номер заявки и получите скидку <strong style="color:red;">10%</strong> на весь заказ.';
         }
 		else 

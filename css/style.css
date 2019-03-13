@@ -369,6 +369,19 @@ border-spacing: 0;
   border-radius: 8px;
 }
 
+#invalid-ex
+{
+  font-size : 18px; text-align : center;padding: 90 0 0 0; 
+}
+
+#contact-form input,textarea
+{
+  width: 75% ;
+  margin : 3 0; 
+  box-shadow: 0 0 10px grey; 
+  border-radius: 8px;
+}
+
 .g-recaptcha
 {
   width: 302px;  
